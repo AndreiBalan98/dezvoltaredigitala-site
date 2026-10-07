@@ -17,14 +17,14 @@ I0 until M2's look-check (Claude commits and pushes to `main`, Vercel deploys ea
       in the same spec — this is what M2–M3 fix
 - [x] if something cannot be captured: a HUMAN TASK for the PO (wp-admin / cPanel), before M1
 
-## M1 — Setup · status: review (waiting for the Vercel import) · ~30 min
+## M1 — Setup · status: done · ~30 min
 **Outcome:** empty Next.js site with the reused export and checks, live on Vercel.
 **Definition of Done:**
 - [x] `.gitignore` before `npm install`; reused files copied from `dezvoltaredigitala-next` (list in PRODUCT.md)
 - [x] `.claude/dod-commands`: `npm run lint`, `npm run build`, `npm test`, `npm run check:routes`,
       `npm run check:links` — each proven able to fail once
 - [x] `npm run compare` builds `compare/index.html`: old screenshot next to new, per page and width
-- [ ] **HUMAN TASK:** PO imports the repo on vercel.com (steps in STATE.md); preview URL works
+- [x] **HUMAN TASK:** PO imports the repo on vercel.com (steps in STATE.md); preview URL works
 
 ## M2 — The reference pages: header, footer, home, newest article · status: todo · ~1.5 h
 **Outcome:** home and *Finanțare pentru sisteme de stocare a energiei* rebuilt to the faithfulness

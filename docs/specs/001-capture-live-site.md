@@ -120,8 +120,10 @@ consultanta-pentru-accesarea-…: Figtree 24 px paragraphs + Raleway.
 
 ## Needs a decision from the Product Owner
 - [x] Nothing failed to capture → no HUMAN TASK for M0.
-- [ ] (for M2) One accent colour: purple `#9164ff` (theme, every page) or the newest article's blue.
-      Recommendation: purple — it is on every page today, so it is "the live site's colours".
+- [x] (for M2) One accent colour → **PO, 2026-10-07: the newest article's colours, the same as the logo.**
+      Palette: `#236581` main, `#42adec` second, `#e8f4fc` tint, `#e2e8ec` lines, `#56636c` muted text.
+      Logo pixels (`public/media/2025/02/logo-1-300x116.png`): `≈#006080`, `≈#00a8e8`, red `≈#e83030`
+      — the two blues match. Purple `#9164ff` is dropped everywhere.
 
 ## Result (2026-10-07)
 `npm run capture` → `capture — 26 URLs × 3 widths: 78 screenshots in reference/.` (exit 0, 4 min 25 s).
