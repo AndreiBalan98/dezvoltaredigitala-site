@@ -9,6 +9,8 @@
     "test": "node --test \"tests/*.test.mjs\"",
     "check:routes": "node scripts/check-routes.mjs",
     "check:links": "node scripts/check-links.mjs",
+    "check:text": "node scripts/check-text.mjs",
+    "check:width": "node scripts/check-width.mjs",
     "capture": "node scripts/capture.mjs",
     "compare": "node scripts/compare.mjs",
     "export:wp": "node scripts/export-wp.mjs"

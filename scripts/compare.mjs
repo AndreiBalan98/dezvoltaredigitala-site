@@ -45,9 +45,19 @@ try {
   for (const width of WIDTHS) {
     const page = await browser.newPage({ viewport: { width, height: 900 } });
     for (const slug of slugs) {
-      const res = await page.goto(BASE + pathOf(slug), { waitUntil: "networkidle" });
+      // Not "networkidle": Next's prefetches of not-yet-built pages never finish under `next start`
+      // (spec 003). Scroll so lazy images load, then wait until every image is complete.
+      const res = await page.goto(BASE + pathOf(slug), { waitUntil: "load" });
       if (res?.status() !== 200 && slug !== "404") continue;
       built.add(slug);
+      await page.evaluate(async () => {
+        for (let y = 0; y < document.body.scrollHeight; y += 600) {
+          window.scrollTo(0, y);
+          await new Promise((r) => setTimeout(r, 50));
+        }
+        window.scrollTo(0, 0);
+      });
+      await page.waitForFunction(() => [...document.images].every((img) => img.complete), null, { timeout: 15000 });
       await page.screenshot({ path: path.join(OUT, "new", `${slug}-${width}.png`), fullPage: true });
     }
     await page.close();

@@ -1,0 +1,44 @@
+[
+  {
+    "page": "/",
+    "from": "utilizand",
+    "to": "utilizând",
+    "why": "missing diacritic"
+  },
+  {
+    "page": "/",
+    "from": "activitatea!Ce presupune acest apel de finanțare?Programul",
+    "to": "activitatea! Ce presupune acest apel de finanțare? Programul",
+    "why": "missing spaces after ! and ?"
+  },
+  {
+    "page": "/",
+    "from": "studii de fezabilitate ->",
+    "to": "studii de fezabilitate",
+    "why": "typed arrow \"->\" replaced by an arrow icon"
+  },
+  {
+    "page": "footer",
+    "from": "Botosani",
+    "to": "Botoșani",
+    "why": "missing diacritic"
+  },
+  {
+    "page": "footer",
+    "from": "© 2025.",
+    "to": "© {year}.",
+    "why": "copyright year follows the current year"
+  },
+  {
+    "page": "/",
+    "from": "martie 14, 2025",
+    "to": "14 martie 2025",
+    "why": "Romanian date order"
+  },
+  {
+    "page": "/",
+    "from": "martie 3, 2025",
+    "to": "3 martie 2025",
+    "why": "Romanian date order"
+  }
+]

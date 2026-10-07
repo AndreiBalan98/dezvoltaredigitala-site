@@ -20,6 +20,8 @@ const htmlFiles = readdirSync(BUILT, { recursive: true })
 
 const pageOf = (file) => (file === "index.html" ? "/" : `/${file.slice(0, -".html".length)}/`);
 const pages = new Set(htmlFiles.filter((f) => f !== "_not-found.html").map(pageOf));
+// Links to pages not rebuilt yet are expected until M3 (spec 003); any other unbuilt target fails.
+const pending = new Set(JSON.parse(readFileSync(path.join(ROOT, "scripts", "routes-pending.json"), "utf8")));
 
 const isFile = (p) => existsSync(p) && statSync(p).isFile();
 
@@ -33,7 +35,8 @@ function resolves(link) {
   if (target.startsWith("/_next/static/")) {
     return isFile(path.join(ROOT, ".next", "static", target.slice("/_next/static/".length)));
   }
-  if (pages.has(target.endsWith("/") ? target : `${target}/`)) return true;
+  const page = target.endsWith("/") ? target : `${target}/`;
+  if (pages.has(page) || pending.has(page)) return true;
   return isFile(path.join(PUBLIC, target));
 }
 

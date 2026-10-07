@@ -6,3 +6,5 @@ npm run build
 npm test
 npm run check:routes
 npm run check:links
+npm run check:text
+npm run check:width

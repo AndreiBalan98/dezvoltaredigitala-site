@@ -1,6 +1,6 @@
 # Spec 003 — The reference pages: header, footer, home, newest article
 
-**Milestone:** M2 · **Status:** approved · **Date:** 2026-10-07
+**Milestone:** M2 · **Status:** review · **Date:** 2026-10-07
 
 ## Goal
 A visitor opening `/` or `/finantare-sisteme-stocare-energie/` on the Vercel preview sees the same site
@@ -13,7 +13,7 @@ that M3 reuses for every other page. The PO then does the look-check; nothing el
 - Our own 404 page (M3).
 - Forms: the "Eligibilitate preliminară" popup form, the article comment form, contact form (non-goals).
 - New sections, new copy, new images. Lighthouse tuning (M4).
-- Editing images: the old number `+40 770 102 495` baked into the home "microîntreprinderi" poster stays.
+- Editing images: the old number `0770 102 495` baked into both home funding posters (microîntreprinderi, EduWebLab) stays.
 
 ## What the visitor sees (from `reference/` and the live HTML)
 **Header** (every page): logo · Acasă · Finanțări nerambursabile · Servicii ▾ (Creare website,
@@ -88,6 +88,10 @@ phone, address) · Compania (Contact, Politica de confidențialitate, Termeni ș
 | `app/[slug]/page.tsx` | new | article page; `generateStaticParams` = the newest article only in M2, `dynamicParams = false` |
 | `components/Header.tsx`, `MobileMenu.tsx`, `Footer.tsx`, `MessengerButton.tsx` | new | site header (menu, dropdown, phone menu), footer, Messenger link bubble |
 | `components/Section.tsx`, `Card.tsx`, `Box.tsx`, `Button.tsx`, `IconList.tsx`, `Icon.tsx` | new | shared components |
+| `lib/icons.ts` | new | the SVG bodies, shared by `Icon.tsx` and the cleaner (added while building) |
+| `lib/site.ts` | new | phone, e-mail, address, Facebook, Messenger, menu (added while building) |
+| `tsconfig.json` | changed | `allowImportingTsExtensions` so `node --test` can import `lib/*.ts` (added while building) |
+| `scripts/compare.mjs` | changed | waits for load + images instead of "networkidle" (added while building, see Result) |
 | `lib/content.ts` | new | reads `content/` JSON (page by path, post by slug, previous post) |
 | `lib/clean-html.ts` | new | exported HTML → clean HTML with shared classes |
 | `content/fixes.json`, `content/cuts.json` | new | every text change / removal, with the reason |
@@ -101,8 +105,8 @@ phone, address) · Compania (Contact, Politica de confidențialitate, Termeni ș
 
 ## Touches existing code
 - The placeholder home is replaced. `check-links` and `check-routes` get looser in one controlled way
-  (pending/extra URLs), so each gets a new failure proof. `export-wp.mjs`, `capture.mjs`, `compare.mjs`,
-  calculator and its tests are unchanged.
+  (pending/extra URLs), so each gets a new failure proof. `compare.mjs` changes how it
+  waits (see Result). `export-wp.mjs`, `capture.mjs`, calculator and its tests are unchanged.
 
 ## Test plan
 | Case | Type | Expected |
@@ -159,3 +163,39 @@ End-to-end check: on the Vercel URL, home and the newest article at phone and la
       `https://m.me/156617447529801` in a new tab. **PO, 2026-10-07: same button as a plain link, no
       outside script** → `components/MessengerButton.tsx`, on every page, white Messenger icon (in `Icon.tsx`).
 - [x] **PO approved this spec on 2026-10-07.**
+
+## Result (2026-10-07)
+All DoD commands exit 0 on the finished code (whole run 16 s):
+`lint` · `build` (routes `/`, `/_not-found`, `/finantare-sisteme-stocare-energie`) · `test` (pass 13, fail 0) ·
+`check:routes — 2 of 25 known URLs built, 23 pending.` · `check:links — 269 internal links on 3 pages, 0 broken.` ·
+`check:text — 3 sources, 83 blocks found in order, 7 fixes, 2 cuts, 0 problems.` ·
+`check:width — 2 pages × 3 widths, 0 problems.`
+`npm run compare` → `compare — 26 URLs × 3 widths, 3 built.` (home, article, 404 = Next's default until M3).
+
+Proven able to fail (each broken on purpose, then restored):
+| Check | Broken how | Output | Exit |
+|---|---|---|---|
+| text | 2nd "Despre noi" paragraph deleted | `/  missing: "Echipa noastră, alcătuită din …"` | 1 |
+| text | ISO and portfolio sections swapped | `/  out of order: "Farmaciaanca.ro"` (and others) | 1 |
+| text | fix whose `from` is not on the page | `/  stale fix: "text care nu există"` | 1 |
+| text | "Sună 0770 102 495" added to home | `index.html  old phone number 0770 102 495` | 1 |
+| width | 500×10 px element on home | `/ @ 375: 500 px wide (widest: div.proof)` | 1 |
+| width | Esc handler broken in `MobileMenu` | `/ @ 375: Esc does not close the menu` | 1 |
+| width | (after review) Servicii links hidden in the phone menu | `/ @ 375: Servicii links not reachable by keyboard in the phone menu` | 1 |
+| links | button to `/nu-exista/` | `Broken: /  →  /nu-exista/` | 1 |
+| routes | `/category/blog/` removed from pending | `Missing: /category/blog/` | 1 |
+| test | (found while building) the cleaner dropped its own `icon-badge` class | `not ok 12 - icon blocks get an SVG badge…` → fixed | 1 |
+
+Deviations / findings:
+- The first width proof used an element 0 px high and stayed **green** — the browser does not count empty boxes
+  as overflow. The check was right, the proof was wrong; redone with 10 px height → red.
+- `compare` hung on the new home: under `next start`, Next's link prefetches of not-yet-built pages
+  (`/contact/?_rsc=…`) get a 404 whose body never ends, so "networkidle" never comes. `compare` now waits for
+  `load`, scrolls (lazy images), and waits until every image is complete. Goes away for each page built in M3.
+- `content/fixes.json` / `cuts.json` live in `content/`, which `npm run export:wp` deletes and rewrites —
+  re-exporting would remove them (git shows it). Noted in STATE.md.
+- Fixes applied (`content/fixes.json`): "utilizand" → "utilizând"; missing spaces in "activitatea!Ce …
+  finanțare?Programul"; typed "->" → arrow icon; "Botosani" → "Botoșani"; © 2025 → current year;
+  "martie 14, 2025" / "martie 3, 2025" → "14 martie 2025" / "3 martie 2025". Header phone icon → +40 749 589 848 (not in `fixes.json`:
+  the header is not exported text; it comes from `lib/site.ts`, and `check:text` fails on any `0770 102 495`).
+  Cuts (`content/cuts.json`): the two hidden screen-reader copies of the funding post titles.
