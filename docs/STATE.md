@@ -3,11 +3,11 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M3 — every other page (status: building — PR 1 in review, PR 2 not started)
+**Current milestone:** M3 — every other page (status: review — PR 1 merged, PR 2 waiting for the PO)
 **Current spec:** `docs/specs/004-every-other-page.md` (M0 = 001, M1 = 002, M2 = 003, all done)
-**Branch:** `feat/m3-articles` (PR 1 to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches
+**Branch:** `feat/m3-pages` (PR 2 to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches
 and opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL for each PR.
-**Live preview:** https://dezvoltaredigitala-site.vercel.app (M2 pages); PR 1's own Vercel preview link is on the PR.
+**Live preview:** https://dezvoltaredigitala-site.vercel.app (M2 + PR 1 pages); PR 2's preview link is on the PR.
 
 ## Where we are
 - **M0 done.** `npm run capture` screenshots all 26 live URLs (23 known + `/category/blog/`,
@@ -35,10 +35,17 @@ and opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL
   Următor), `/finantari-nerambursabile/`, `/category/blog/`, `/author/dezvoltarev2/` (all 12 posts), our 404.
   DoD 7/7 green; spec-reviewer found 2 gaps (archives missing 2 posts; 404 cuts not listed), both fixed.
   Details and evidence: spec 004 "Result — PR 1". `npm run compare` now also has a laptop-screen row.
+  **PR 1 merged** by the PO ("is ok"). The two "match live?" questions were not answered → defaults kept
+  (funding list 1200 px wide, article photos at text width). Still open: say "match live" any time.
+- **M3 PR 2 built** (`feat/m3-pages`): `/servicii/` (4 cards), the 4 service pages, contact, the 2 legal pages,
+  the calculator. All 25 known URLs + 404 built (`routes-pending.json` = `[]`). PO decisions: the hidden
+  "Creare website" packages are **shown with prices** (€400 / €800 / €1200); legal pages get **all diacritics
+  fixed** (31 listed fixes). spec-reviewer found 1 gap (a CSS rule moved a button on the approved newest
+  article by 16 px), fixed and measured. Details and evidence: spec 004 "Result — PR 2".
 
 ## Next step
-PO look-check of PR 1 (HUMAN TASK below), including two "how close to live" questions. Merged → PR 2 on
-`feat/m3-pages`: `/servicii/` + 4 service pages, contact, 2 legal pages, calculator.
+PO look-check of PR 2 (HUMAN TASK below). Merged → M3 done; then M4 (polish: Lighthouse on home + newest
+article, the PO's final read of all fixes, open questions) — spec 005.
 
 ## Why the current approach
 - Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
@@ -49,18 +56,15 @@ PO look-check of PR 1 (HUMAN TASK below), including two "how close to live" ques
 - none
 
 ## Blocked on the human
-**HUMAN TASK — PR 1 look-check (about 10 minutes).**
+**HUMAN TASK — PR 2 look-check (about 10 minutes).**
 1. On the laptop, in the project folder, type `xdg-open compare/index.html` and press Enter.
    (Missing? First type `npm run compare`, wait ~5 min.)
-2. Click a page name at the top. The first row, "laptop screen", is live on the left and new on the right, as
-   on your laptop. Look at: `/finantari-nerambursabile/`, `/category/blog/`, `/economia-circulara/`,
-   `/apelul-regional-vinnovate-2025/`, `/bizz-club-botosani/`, `/404`.
-3. On the phone, open the PR's Vercel preview link (in the PR, "Deployments" → "View deployment") and
-   open the same pages.
-4. Done = reply **"PR 1 OK"** (then click "Merge pull request" → "Confirm merge"), or a list of what to change.
-   Two open questions, your call: (a) the funding list is ~1430 px wide on live, ours keeps the site's
-   1200 px; (b) live article photos can be ~1270 px wide, ours stop at the 760 px text width.
-What I do with it: OK → you merge, I start PR 2. A list → I fix it on the same branch and ask again.
+2. Click a page name at the top; the first row is one laptop screen, live left, new right. Look at:
+   `/servicii/`, the 4 `/servicii/…` pages, `/contact/`, `/calculator-baterii/`, the 2 legal pages.
+3. On the phone, open the PR's Vercel preview link (PR page → "View deployment") and try the calculator:
+   tick the 6 boxes, type 15, 25000, 10000 → it must show **57,5**; press "Aplică" → **87,5**.
+4. Done = reply **"PR 2 OK"** and merge ("Merge pull request" → "Confirm merge"), or a list of changes.
+What I do with it: OK → M3 done, I write spec 005 (M4). A list → I fix it on the same branch and ask again.
 
 ## Decisions made since last review
 - Not asked, PO may overturn (spec 003 "Assumptions"): article comment form removed (needs a backend),
@@ -108,3 +112,11 @@ What I do with it: OK → you merge, I start PR 2. A list → I fix it on the sa
 - Under I1 the sandbox mounts placeholder files in the project folder (`.bashrc`, `.gitconfig`, `.idea`,
   `.claude/commands` …, owned by "nobody"). Never `git add -A`: add files by name.
 - `public/media/` is 25 MB in git (ROADMAP "Later": remove unused images).
+- No check catches a CSS-only change to an approved page (`check:text` compares text). PR 2 moved a button
+  on the newest article by 16 px until the reviewer measured it. Possible M4 item: screenshot-diff the
+  approved pages against a saved baseline.
+- `git pull` doesn't work under I1 (sandbox protects `.claude/settings.json`). To sync after a merge:
+  `git fetch`, `git switch main`, `git reset --mixed origin/main`, `git checkout -- . ':!.claude/settings.json'`.
+- Legal pages keep live's heading levels (h1 → h5 / h1 → h3 → h5); street name "Dobosari" kept as on live.
+- Under I1 the sandbox mounts placeholder files (see above), and `compare` reaches the live site only through
+  the proxy (handled in `scripts/compare.mjs`).

@@ -916,6 +916,10 @@ a.card:hover {
   gap: var(--s-4);
   align-items: center;
 }
+.split__pair img {
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
 .split__text > :last-child {
   margin-bottom: 0;
 }
@@ -947,7 +951,7 @@ a.card:hover {
 .points li::marker {
   color: var(--c-main);
 }
-.box .btn {
+.stack-boxes .box .btn {
   margin-top: var(--s-3);
 }
 .stack-boxes {
@@ -1048,6 +1052,17 @@ a.card:hover {
 }
 .calc__card--bad {
   border-color: var(--c-error);
+}
+/* the conditions card is a <fieldset>: its <legend> sits inside the card like the other step titles */
+fieldset.calc__card {
+  min-width: 0;
+}
+legend.calc__step {
+  float: left;
+  width: 100%;
+}
+legend.calc__step + * {
+  clear: both;
 }
 .calc__step {
   display: flex;
