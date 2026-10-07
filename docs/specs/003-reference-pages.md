@@ -199,3 +199,8 @@ Deviations / findings:
   "martie 14, 2025" / "martie 3, 2025" → "14 martie 2025" / "3 martie 2025". Header phone icon → +40 749 589 848 (not in `fixes.json`:
   the header is not exported text; it comes from `lib/site.ts`, and `check:text` fails on any `0770 102 495`).
   Cuts (`content/cuts.json`): the two hidden screen-reader copies of the funding post titles.
+
+PO look-check (2026-10-07): "hero section bigger, the original one was pretty good; the rest is good."
+→ home hero set to the live sizes (`reference/styles.json`: h1 75.68 px, text ~22 px at 1280): `--fs-hero`
+36–56 px → 40–76 px, new `--fs-hero-text` 19–22 px, more space above/below on desktop. `--fs-hero` is used
+only by the home hero. DoD 7/7 green after the change; `compare` re-run.

@@ -463,17 +463,23 @@ a.card:hover {
 }
 .hero h1 {
   font-size: var(--fs-hero);
-  margin-bottom: var(--s-4);
+  line-height: 1.15;
+  margin-bottom: var(--s-5);
 }
 .hero__text p {
-  font-size: var(--fs-prose);
+  font-size: var(--fs-hero-text);
+  line-height: 1.75;
 }
 .hero__text .btn {
-  margin-top: var(--s-2);
+  margin-top: var(--s-3);
 }
 @media (min-width: 900px) {
+  .hero {
+    padding: var(--s-7) 0 calc(var(--s-7) * 1.5);
+  }
   .hero__grid {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: var(--s-6);
   }
 }
 

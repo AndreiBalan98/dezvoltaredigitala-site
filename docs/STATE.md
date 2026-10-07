@@ -3,7 +3,7 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M2 — header, footer, home, newest article (status: review — waiting for the PO look-check)
+**Current milestone:** M2 — header, footer, home, newest article (status: review — round 2, only the home hero changed)
 **Current spec:** `docs/specs/003-reference-pages.md` (M0 = `docs/specs/001-capture-live-site.md`, M1 = `docs/specs/002-setup.md`, both done)
 **Branch:** main (pushed; Vercel deploys every push)
 **Live preview:** https://dezvoltaredigitala-site.vercel.app — home and
@@ -20,6 +20,8 @@ https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ ar
   components (`components/`, `app/tokens.css`, `app/globals.css`). 7 DoD commands green in 16 s; the new
   `check:text` and `check:width` and the loosened `check:links` / `check:routes` were each broken once (spec
   003 "Result"). Text fixes and cuts are data: `content/fixes.json`, `content/cuts.json`.
+- **Look-check round 1 (2026-10-07):** PO liked everything except the home hero ("bigger, the original was
+  pretty good"). Hero now uses the live sizes (heading 76 px / text 22 px on desktop). Spec 003 "Result".
 
 ## Next step
 PO look-check (HUMAN TASK below). Approved → M2 done, switch to I1 (`.claude/presets/settings.I1.json`),
@@ -34,18 +36,12 @@ then M3 (spec 004: every other page from the same components). Changes asked →
 - none
 
 ## Blocked on the human
-**HUMAN TASK — M2 look-check (about 10 minutes).** Nothing else starts before this.
-1. On the laptop, in the project folder, open the side-by-side page: in the terminal type
-   `xdg-open compare/index.html` and press Enter. (Missing? First type `npm run compare`, wait ~1 min.)
-2. In that page, click `/` at the top. Scroll: for each width (375, 768, 1280) the old page is on the left,
-   the new one on the right. Then do the same for `/finantare-sisteme-stocare-energie/`.
-3. On the laptop browser open https://dezvoltaredigitala-site.vercel.app and
-   https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ — click around: menu,
-   "Servicii", buttons, footer links. (Links to other pages show "404" until M3 — expected.)
-4. On your phone open the same two addresses. Tap ☰ (menu), the phone icon, the blue Messenger bubble.
-5. Done = you reply either **"M2 approved"** or a list like "home: logos too small; article: …".
-   Things to judge: is it "same site, but clean"? Font, button shape (rounded pill), card style, blues.
-What I do with it: approved → close M2, switch to I1, write spec 004. A list → fix each item, show you again.
+**HUMAN TASK — M2 look-check, round 2 (about 2 minutes).** Nothing else starts before this.
+1. Wait ~2 minutes after the push (Vercel rebuilds), then open https://dezvoltaredigitala-site.vercel.app
+   on the laptop and on the phone. Look only at the top block ("Transformă-ți afacerea…" + the photo).
+2. Optional side-by-side: in the terminal type `xdg-open compare/index.html`, press Enter, click `/`.
+3. Done = you reply **"M2 approved"**, or say what is still off (e.g. "heading still too small on phone").
+What I do with it: approved → close M2, switch to I1, write spec 004. Otherwise → adjust, show you again.
 
 ## Decisions made since last review
 - Not asked, PO may overturn (spec 003 "Assumptions"): article comment form removed (needs a backend),
