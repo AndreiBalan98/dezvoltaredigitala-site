@@ -1,0 +1,5223 @@
+{
+ "/bizz-club-botosani/": {
+  "headings": [
+   {
+    "text": "BIZZ CLUB BT",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 20px/36px rgb(0, 0, 0)": 1,
+   "-apple-system 20px/34px rgb(0, 0, 0)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(0, 0, 0)": 11,
+   "rgb(29, 41, 57)": 8,
+   "rgb(145, 100, 255)": 7,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 12,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 54,
+   "Inter": 10,
+   "Red Hat Display": 6,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/test-2/": {
+  "headings": [
+   {
+    "text": "O nouă provocare profesională!",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 20px/36px rgb(17, 17, 19)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(29, 41, 57)": 10,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 4,
+   "rgb(17, 17, 19)": 4,
+   "rgb(5, 5, 5)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 12,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Red Hat Display": 11,
+   "Inter": 10,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/test-3/": {
+  "headings": [
+   {
+    "text": "BIZZ CLUB",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "𝐀𝐧𝐭𝐫𝐞𝐩𝐫𝐞𝐧𝐨𝐫𝐢 𝐝𝐢𝐧 𝐁𝐨𝐭𝐨𝐬̦𝐚𝐧𝐢, 𝐩𝐫𝐞𝐠\ud835",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "BIZZ CLUB",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O nouă provocare profesională!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "BIZZ CLUB BT",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 17px/30.6px rgb(0, 0, 0)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 10,
+   "rgb(0, 0, 0)": 7,
+   "rgb(29, 41, 57)": 7,
+   "rgb(145, 100, 255)": 6,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 11,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 49,
+   "Inter": 9,
+   "Red Hat Display": 6,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 5,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/877-2/": {
+  "headings": [
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "📱 0770102495",
+    "font": "Red Hat Display",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "28.8px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "📧 contact@eduweblab.ro",
+    "font": "Red Hat Display",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "28.8px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "🌐 www.eduweblab.ro",
+    "font": "Red Hat Display",
+    "size": "16px",
+    "weight": "500",
+    "lineHeight": "28.8px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "16 răspunsuri la „Alătură-te EduWebLab și obține un site GRA",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 11,
+   "-apple-system 0px/0px rgb(0, 0, 0)": 3,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 16px/28.8px rgb(9, 9, 9)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(29, 41, 57)": 9,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 7,
+   "rgb(9, 9, 9)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(49, 49, 49)": 2,
+   "rgb(204, 204, 204)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 12,
+   "rgb(145, 100, 255)": 3,
+   "rgba(255, 255, 255, 0)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Inter": 11,
+   "Red Hat Display": 9,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 50% · border 0px rgb(67, 67, 67) · shadow none": 3,
+   "radius 50% · border 0px rgb(16, 24, 40) · shadow none": 3,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/investitii-pentru-modernizarea-microintreprinderilor/": {
+  "headings": [
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "20 se răspunsuri la „Fonduri europene pentru modernizarea mi",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 16px/28.8px rgb(9, 9, 9)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(29, 41, 57)": 8,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(49, 49, 49)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(9, 9, 9)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 11,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Inter": 11,
+   "Red Hat Display": 4,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/economia-circulara/": {
+  "headings": [
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 16px/28.8px rgb(9, 9, 9)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(9, 9, 9)": 20,
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 14,
+   "rgb(29, 41, 57)": 9,
+   "rgb(145, 100, 255)": 8,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 12,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 55,
+   "Red Hat Display": 23,
+   "Inter": 11,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 7,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/start-up-nation-2025/": {
+  "headings": [
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 16px/28.8px rgb(9, 9, 9)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(71, 84, 103)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 14,
+   "rgb(9, 9, 9)": 9,
+   "rgb(29, 41, 57)": 9,
+   "rgb(145, 100, 255)": 8,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 12,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 55,
+   "Red Hat Display": 12,
+   "Inter": 11,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 7,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/apelul-regional-vinnovate-2025/": {
+  "headings": [
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 20px/36px rgb(17, 17, 19)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(5, 5, 5)": 19,
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(29, 41, 57)": 8,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 11,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Red Hat Display": 22,
+   "Inter": 10,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/ai-o-microintreprindere-in-regiunea-nord-est-si-te-gandesti-sa-o-modernizezi/": {
+  "headings": [
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 20px/36px rgb(17, 17, 19)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(17, 17, 19)": 11,
+   "rgb(29, 41, 57)": 8,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(5, 5, 5)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 11,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Red Hat Display": 15,
+   "Inter": 10,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/o-regiune-mai-digitalizata/": {
+  "headings": [
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "18px",
+    "weight": "700",
+    "lineHeight": "21.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 8,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "Red Hat Display 20px/36px rgb(17, 17, 19)": 1,
+   "Red Hat Display 16px/28.8px rgb(0, 0, 0)": 1,
+   "-apple-system 14px/21px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(17, 17, 19)": 18,
+   "rgb(67, 67, 67)": 17,
+   "rgb(255, 255, 255)": 14,
+   "rgb(152, 155, 177)": 12,
+   "rgb(29, 41, 57)": 8,
+   "rgb(145, 100, 255)": 7,
+   "rgb(0, 0, 0)": 4,
+   "rgb(47, 47, 47)": 2,
+   "rgb(204, 204, 204)": 1,
+   "rgb(5, 5, 5)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 11,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 52,
+   "Red Hat Display": 22,
+   "Inter": 10,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgb(197, 197, 197) 0px 0px 0px 0px": 6,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/ghidul-incepatorului-in-accesarea-fondurilor-europene-ce-trebuie-sa-stii-inainte-sa-aplici/": {
+  "headings": [
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ce sunt fondurile europene?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Cine poate accesa fonduri europene?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "❌ Mit",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "✅ Adevăr",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Etapele accesării fondurilor europene",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Sfaturi utile pentru începători (și de ce să nu faci totul s",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai un proiect în minte? Hai să-l facem împreună!",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Programează o întâlnire",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "12px 16px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 43,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 79,
+   "rgb(255, 255, 255)": 15,
+   "rgb(49, 49, 49)": 8,
+   "rgb(0, 0, 0)": 3,
+   "rgb(47, 47, 47)": 2,
+   "rgb(145, 100, 255)": 1,
+   "rgb(204, 204, 204)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 5,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 97,
+   "Inter": 11,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/finantare-sisteme-stocare-energie/": {
+  "headings": [
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Vrei să vezi dacă te încadrezi?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Cum se face selecția?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Condiții importante",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai nevoie de ajutor?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Lasă un răspuns Anulează răspunsul",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Calculează-ți punctajul",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "600",
+    "lineHeight": "16px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(35, 101, 129)",
+    "radius": "8px",
+    "padding": "12px 26px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "18.08px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 18px/30.6px rgb(67, 67, 67)": 9,
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 7,
+   "-apple-system 16px/24.8px rgb(86, 99, 108)": 4,
+   "-apple-system 17px/28.9px rgb(67, 67, 67)": 2,
+   "-apple-system 15px/25.5px rgb(204, 204, 204)": 1,
+   "-apple-system 20px/32px rgb(67, 67, 67)": 1,
+   "-apple-system 19px/32.3px rgb(67, 67, 67)": 1,
+   "-apple-system 13.44px/20.832px rgb(86, 99, 108)": 1
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 30,
+   "rgb(255, 255, 255)": 15,
+   "rgb(86, 99, 108)": 5,
+   "rgb(49, 49, 49)": 5,
+   "rgb(29, 29, 38)": 4,
+   "rgb(35, 101, 129)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(145, 100, 255)": 1,
+   "rgb(0, 0, 0)": 1,
+   "rgb(204, 204, 204)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 5,
+   "rgb(145, 100, 255)": 3,
+   "rgb(231, 231, 231)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(232, 244, 252)": 1,
+   "rgb(35, 101, 129)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 57,
+   "Inter": 8,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 14px · border 1px rgb(226, 232, 236) · shadow none": 4,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 18px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 8px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 0px · border 1px rgb(226, 232, 236) · shadow none": 1,
+   "radius 18px · border 1px rgb(226, 232, 236) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/": {
+  "headings": [
+   {
+    "text": "Transformă-ți afacerea cu soluții digitale inovatoare",
+    "font": "Inter",
+    "size": "75.68px",
+    "weight": "700",
+    "lineHeight": "90.816px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Soluțiile noastre pentru dezvoltare",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "10px",
+    "padding": "0px"
+   },
+   {
+    "text": "Creare site-uri web",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "600",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Magazine Online",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "600",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Promovare Web",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "600",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Despre noi",
+    "font": "Inter",
+    "size": "42.56px",
+    "weight": "700",
+    "lineHeight": "51.072px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțări nerambursabile",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Suntem certificați ISO",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O parte din proiectele finalizate",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Jocurinoi.ro",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "antiv.ro",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "xat.ro",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "eduweblab.ro",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Farmaciaanca.ro",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "C&A Connect",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Află mai multe despre consultanță soluții IT și studii de fe",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Vezi mai mult",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Vezi mai mult",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Vezi mai mult",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(121, 103, 255)",
+    "radius": "25px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(0, 0, 0)": 5,
+   "-apple-system 18.08px/30.736px rgb(145, 100, 255)": 2,
+   "-apple-system 24px/40.8px rgb(0, 0, 0)": 2,
+   "-apple-system 24px/40.8px rgb(49, 49, 49)": 1,
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 1
+  },
+  "textColors": {
+   "rgb(255, 255, 255)": 19,
+   "rgb(145, 100, 255)": 11,
+   "rgb(49, 49, 49)": 10,
+   "rgb(0, 0, 0)": 10,
+   "rgb(51, 65, 85)": 6,
+   "rgb(67, 67, 67)": 5,
+   "rgb(29, 41, 57)": 2,
+   "rgba(5, 5, 5, 0.7)": 2
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 15,
+   "rgb(145, 100, 255)": 6,
+   "rgb(0, 0, 0)": 6,
+   "rgb(243, 246, 251)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(121, 103, 255)": 1,
+   "rgb(249, 250, 251)": 1,
+   "rgb(0, 122, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 43,
+   "Inter": 21,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 100px · border 0px rgb(67, 67, 67) · shadow none": 7,
+   "radius 25px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 5,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 4,
+   "radius 73px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.2) 6px 6px 9px 0px": 3,
+   "radius 100px · border 0px rgb(0, 0, 0) · shadow none": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 10px · border 0px rgb(49, 49, 49) · shadow none": 1,
+   "radius 60px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.2) 6px 6px 9px 0px": 1,
+   "radius 50px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 80px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/servicii/": {
+  "headings": [
+   {
+    "text": "Servicii",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {},
+  "textColors": {
+   "rgb(255, 255, 255)": 14,
+   "rgb(67, 67, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 255, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 16,
+   "Inter": 3,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/servicii/creare-website/": {
+  "headings": [
+   {
+    "text": "Creare website",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Dezvoltare digitala se situează în fruntea ofertelor din dom",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(25, 26, 28)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ce oferim?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii diversificate",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "WEBSITE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "ANALIZĂ TEHNICĂ",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CRM",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "GESTIUNE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "IOT",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CLOUD",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(0, 0, 0)": 6,
+   "-apple-system 20px/30px rgb(0, 0, 0)": 4,
+   "-apple-system 21px/35.7px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(0, 0, 0)": 19,
+   "rgb(255, 255, 255)": 15,
+   "rgb(67, 67, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(25, 26, 28)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 9,
+   "rgb(233, 224, 255)": 4,
+   "rgb(145, 100, 255)": 3,
+   "rgb(47, 47, 47)": 2,
+   "rgb(249, 250, 251)": 1,
+   "rgb(248, 248, 248)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 28,
+   "Inter": 12,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 8,
+   "radius 25px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 6px · border 1px rgb(173, 182, 190) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 4,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 40px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 33px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 80px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/servicii/digitalizare-si-automatizare/": {
+  "headings": [
+   {
+    "text": "Digitalizare și automatizare",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii de furnizare de ERP, CMS, și digitalizarea afacerii",
+    "font": "Inter",
+    "size": "45px",
+    "weight": "700",
+    "lineHeight": "54px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ce oferim:",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Beneficii diverse, asigurate printr-o colaborare continuă",
+    "font": "Poppins",
+    "size": "28px",
+    "weight": "600",
+    "lineHeight": "36.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "30px 0px 10px"
+   },
+   {
+    "text": "Automatizare roboți software și IOT",
+    "font": "Inter",
+    "size": "35px",
+    "weight": "700",
+    "lineHeight": "42px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Pentru a integra roboți software în afacerea ta, trebuie să ",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii diversificate",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "WEBSITE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "ANALIZĂ TEHNICĂ",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CRM",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "GESTIUNE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "IOT",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CLOUD",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(68, 76, 231)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(0, 0, 0)": 6,
+   "-apple-system 20px/30px rgb(0, 0, 0)": 4,
+   "-apple-system 25px/42.5px rgb(0, 0, 0)": 1,
+   "Poppins 28px/36.4px rgb(0, 0, 0)": 1,
+   "-apple-system 20px/34px rgb(0, 0, 0)": 1
+  },
+  "textColors": {
+   "rgb(0, 0, 0)": 24,
+   "rgb(255, 255, 255)": 16,
+   "rgb(67, 67, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(30, 41, 59)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 14,
+   "rgb(217, 255, 255)": 4,
+   "rgb(145, 100, 255)": 3,
+   "rgb(47, 47, 47)": 2,
+   "rgb(68, 76, 231)": 1,
+   "rgb(249, 250, 251)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 30,
+   "Inter": 13,
+   "Poppins": 3,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 8,
+   "radius 25px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 25px · border 1px rgb(173, 182, 190) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 4,
+   "radius 50% · border 0px rgb(67, 67, 67) · shadow none": 4,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow none": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 66px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 48px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 80px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/servicii/consultanta-solutii-it-si-studii-de-fezabilitate/": {
+  "headings": [
+   {
+    "text": "Consultanță soluții IT și studii de fezabilitate",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Consultanță IT digitalizare",
+    "font": "Inter",
+    "size": "35px",
+    "weight": "700",
+    "lineHeight": "42px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ce servicii oferim ?",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii diversificate",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "WEBSITE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "ANALIZĂ TEHNICĂ",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CRM",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "GESTIUNE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "IOT",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CLOUD",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(0, 0, 0)": 6,
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 1,
+   "-apple-system 18px/30.6px rgb(0, 0, 0)": 1,
+   "Lato 20px/32px rgb(16, 24, 40)": 1
+  },
+  "textColors": {
+   "rgb(0, 0, 0)": 18,
+   "rgb(255, 255, 255)": 14,
+   "rgb(67, 67, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(16, 24, 40)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 7,
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 246, 255)": 1,
+   "rgb(249, 250, 251)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 23,
+   "Inter": 13,
+   "Lato": 2,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 25px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 5,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 98px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 24px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 30px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 80px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/politica-de-confidentialitate/": {
+  "headings": [
+   {
+    "text": "Politică de confidențialitate",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 19
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 22,
+   "rgb(255, 255, 255)": 14,
+   "rgb(49, 49, 49)": 3,
+   "rgb(145, 100, 255)": 1
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 255, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 34,
+   "Inter": 5,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/contact/": {
+  "headings": [
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o întrebare? Scrie-ne aici",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 6,
+   "-apple-system 16px/16px rgb(30, 41, 59)": 3,
+   "-apple-system 15px/25.5px rgb(51, 65, 85)": 1
+  },
+  "textColors": {
+   "rgb(255, 255, 255)": 14,
+   "rgb(67, 67, 67)": 8,
+   "rgb(30, 41, 59)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(0, 0, 0)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 6,
+   "rgb(145, 100, 255)": 3,
+   "rgb(47, 47, 47)": 2,
+   "rgb(243, 246, 251)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 24,
+   "Inter": 4,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 3,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 3,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 8px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.1) 0px 4px 6px 0px": 1,
+   "radius 5px · border 1px rgb(221, 221, 221) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/termeni-si-conditii/": {
+  "headings": [
+   {
+    "text": "Termeni și condiții",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Condiţii Generale de utilizare a site-ului",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 18
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 24,
+   "rgb(255, 255, 255)": 14,
+   "rgb(49, 49, 49)": 4,
+   "rgb(145, 100, 255)": 1
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 255, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 36,
+   "Inter": 6,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/finantari-nerambursabile/": {
+  "headings": [
+   {
+    "text": "Finanțări nerambursabile",
+    "font": "Inter",
+    "size": "40px",
+    "weight": "700",
+    "lineHeight": "48px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "27px",
+    "weight": "800",
+    "lineHeight": "37.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {},
+  "textColors": {
+   "rgb(0, 0, 0)": 18,
+   "rgb(255, 255, 255)": 14,
+   "rgb(29, 41, 57)": 10,
+   "rgb(145, 100, 255)": 9,
+   "rgba(5, 5, 5, 0.7)": 9,
+   "rgb(67, 67, 67)": 4
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 10,
+   "rgb(145, 100, 255)": 2,
+   "rgb(249, 250, 251)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 51,
+   "Inter": 12,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/": {
+  "headings": [
+   {
+    "text": "Consultanță pentru accesarea fondurilor nerambursabile",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii:",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "0px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Accesarea fondurilor nerambursabile poate fi un proces compl",
+    "font": "Inter",
+    "size": "25px",
+    "weight": "700",
+    "lineHeight": "30px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Servicii diversificate",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "WEBSITE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "ANALIZĂ TEHNICĂ",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CRM",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "GESTIUNE",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(30, 41, 59)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "IOT",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "CLOUD",
+    "font": "Inter",
+    "size": "28px",
+    "weight": "700",
+    "lineHeight": "33.6px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Citește mai mult",
+    "font": "-apple-system",
+    "size": "15px",
+    "weight": "400",
+    "lineHeight": "25.5px",
+    "color": "rgb(145, 100, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Spre pagina de contact",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(255, 99, 99)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(0, 0, 0)": 6,
+   "-apple-system 16px/16px rgb(0, 0, 0)": 5,
+   "Figtree 24px/40.8px rgb(0, 0, 0)": 5,
+   "-apple-system 20px/32px rgb(17, 17, 17)": 1,
+   "-apple-system 20px/34px rgb(0, 0, 0)": 1,
+   "-apple-system 24px/40.8px rgb(0, 0, 0)": 1,
+   "-apple-system 16px/16px rgb(21, 22, 23)": 1
+  },
+  "textColors": {
+   "rgb(0, 0, 0)": 32,
+   "rgb(255, 255, 255)": 15,
+   "rgb(67, 67, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(17, 17, 17)": 1,
+   "rgb(21, 22, 23)": 1,
+   "rgb(30, 41, 59)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 9,
+   "rgb(255, 238, 212)": 6,
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 99, 99)": 1,
+   "rgb(249, 250, 251)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 38,
+   "Inter": 11,
+   "Figtree": 5,
+   "Raleway": 1,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 6px · border 1px rgb(173, 182, 190) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 25px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 6,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 5,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 80px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/calculator-baterii/": {
+  "headings": [
+   {
+    "text": "Calculator punctaj baterii",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/22.5px rgb(29, 35, 39)": 7,
+   "-apple-system 15.75px/23.625px rgb(29, 35, 39)": 3,
+   "-apple-system 12.75px/19.125px rgb(95, 107, 115)": 2,
+   "-apple-system 15px/22.5px rgb(95, 107, 115)": 1
+  },
+  "textColors": {
+   "rgb(29, 35, 39)": 17,
+   "rgb(255, 255, 255)": 15,
+   "rgb(95, 107, 115)": 14,
+   "rgb(67, 67, 67)": 4,
+   "rgb(31, 111, 67)": 4,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1,
+   "rgb(179, 187, 193)": 1
+  },
+  "backgrounds": {
+   "rgb(255, 255, 255)": 7,
+   "rgb(232, 244, 236)": 3,
+   "rgb(145, 100, 255)": 2,
+   "rgb(31, 111, 67)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(238, 241, 243)": 1,
+   "rgb(244, 246, 247)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 53,
+   "Inter": 3,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 10px · border 1px rgb(213, 219, 224) · shadow none": 3,
+   "radius 50% · border 0px rgb(31, 111, 67) · shadow none": 3,
+   "radius 8px · border 1px rgb(213, 219, 224) · shadow none": 3,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(29, 35, 39) · shadow none": 1,
+   "radius 0px · border 1px rgb(213, 219, 224) · shadow none": 1,
+   "radius 6px · border 0px rgb(95, 107, 115) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/category/blog/": {
+  "headings": [
+   {
+    "text": "Categorie: Blog",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "BIZZ CLUB",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 10
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 16,
+   "rgb(255, 255, 255)": 14,
+   "rgb(49, 49, 49)": 12,
+   "rgb(145, 100, 255)": 3
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 255, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 30,
+   "Inter": 14,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 10px · border 0px rgb(67, 67, 67) · shadow none": 10,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/author/dezvoltarev2/": {
+  "headings": [
+   {
+    "text": "Autor: admin",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Finanțare pentru sisteme de stocare a energiei",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ghidul începătorului în accesarea fondurilor europene – Ce t",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "O regiune mai digitalizată!",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Ai o microîntreprindere în Regiunea Nord-Est și te gândești ",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Apelul Regional VInnovate 2025",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Start-Up nation 2025",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Economia Circulara",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Fonduri europene pentru modernizarea microîntreprinderilor",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Alătură-te EduWebLab și obține un site GRATUIT",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "BIZZ CLUB",
+    "font": "Inter",
+    "size": "24px",
+    "weight": "700",
+    "lineHeight": "28.8px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 10
+  },
+  "textColors": {
+   "rgb(67, 67, 67)": 16,
+   "rgb(255, 255, 255)": 14,
+   "rgb(49, 49, 49)": 12,
+   "rgb(145, 100, 255)": 3
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(255, 255, 255)": 1,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 30,
+   "Inter": 14,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 10px · border 0px rgb(67, 67, 67) · shadow none": 10,
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ },
+ "/pagina-care-nu-exista/": {
+  "headings": [
+   {
+    "text": "404",
+    "font": "Inter",
+    "size": "56.8px",
+    "weight": "700",
+    "lineHeight": "68.16px",
+    "color": "rgb(49, 49, 49)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Contact",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   },
+   {
+    "text": "Compania",
+    "font": "Inter",
+    "size": "32px",
+    "weight": "700",
+    "lineHeight": "38.4px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "0px",
+    "padding": "0px"
+   }
+  ],
+  "buttons": [
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(67, 67, 67)",
+    "background": "rgba(0, 0, 0, 0)",
+    "radius": "5px",
+    "padding": "0px"
+   },
+   {
+    "text": "Eligibilitate preliminară",
+    "font": "-apple-system",
+    "size": "14px",
+    "weight": "600",
+    "lineHeight": "normal",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "25px",
+    "padding": "9px 15px 10px"
+   },
+   {
+    "text": "",
+    "font": "-apple-system",
+    "size": "18.08px",
+    "weight": "400",
+    "lineHeight": "0px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "5px",
+    "padding": "14.0594px 26.1006px"
+   },
+   {
+    "text": "Contactează-ne!",
+    "font": "-apple-system",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "27.2px",
+    "color": "rgb(255, 255, 255)",
+    "background": "rgb(145, 100, 255)",
+    "radius": "6px",
+    "padding": "15px 30px"
+   }
+  ],
+  "paragraphSizes": {
+   "-apple-system 32px/54.4px rgb(67, 67, 67)": 1,
+   "-apple-system 15px/25.5px rgb(67, 67, 67)": 1
+  },
+  "textColors": {
+   "rgb(255, 255, 255)": 14,
+   "rgb(67, 67, 67)": 8,
+   "rgb(145, 100, 255)": 1,
+   "rgb(49, 49, 49)": 1
+  },
+  "backgrounds": {
+   "rgb(145, 100, 255)": 3,
+   "rgb(255, 255, 255)": 2,
+   "rgb(47, 47, 47)": 2,
+   "rgb(0, 51, 255)": 1
+  },
+  "fonts": {
+   "-apple-system": 20,
+   "Inter": 3,
+   "CNB Icons": 1
+  },
+  "boxes": {
+   "radius 0px · border 0px rgb(67, 67, 67) · shadow rgba(0, 0, 0, 0.44) 0px 0px 0px 0px": 2,
+   "radius 5px · border 0px rgb(67, 67, 67) · shadow none": 1,
+   "radius 25px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 5px · border 1px rgb(204, 204, 204) · shadow none": 1,
+   "radius 5px · border 0px rgb(255, 255, 255) · shadow none": 1,
+   "radius 6px · border 0px rgb(255, 255, 255) · shadow rgba(0, 0, 0, 0) 0px 0px 1px 0px": 1,
+   "radius 0px · border 1px rgba(255, 255, 255, 0.13) · shadow none": 1,
+   "radius 50% · border 0px rgb(145, 100, 255) · shadow rgba(0, 0, 0, 0.4) 0px 1px 2px 0px": 1
+  }
+ }
+}
