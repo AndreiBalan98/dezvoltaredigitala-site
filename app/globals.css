@@ -570,14 +570,15 @@ a.card:hover {
   color: var(--c-muted);
   font-size: var(--fs-small);
 }
-.teaser h3 {
+.teaser :is(h2, h3) {
   order: -1;
+  font-size: var(--fs-h3);
 }
-.teaser h3 a {
+.teaser :is(h2, h3) a {
   color: var(--c-heading);
   text-decoration: none;
 }
-.teaser h3 a:hover {
+.teaser :is(h2, h3) a:hover {
   color: var(--c-main);
 }
 .teaser__image img {
@@ -585,8 +586,38 @@ a.card:hover {
   margin-bottom: var(--s-3);
   border-radius: var(--radius-small);
 }
-.teaser p:last-child {
+.teaser p:last-child,
+.teaser p:has(+ .teaser__more) {
   font-size: 0.9375rem;
+}
+.teaser__more {
+  margin-top: auto;
+  font-weight: 600;
+}
+
+/* 404 (spec 004) */
+.not-found {
+  text-align: center;
+}
+.not-found h1 {
+  margin-bottom: var(--s-2);
+  font-size: var(--fs-hero);
+}
+.not-found__title {
+  font-size: var(--fs-lead);
+}
+.not-found p {
+  max-width: var(--w-text);
+  margin-inline: auto;
+}
+.not-found .btn {
+  margin-top: var(--s-4);
+}
+
+/* post lists (spec 004) */
+.page-title {
+  margin-bottom: var(--s-5);
+  text-align: center;
 }
 
 .certificates {
@@ -654,10 +685,20 @@ a.card:hover {
   font-size: var(--fs-small);
 }
 .article__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s-3) var(--s-5);
   max-width: calc(var(--w-text) + 2 * var(--pad));
   margin-top: var(--s-6);
   padding-top: var(--s-4);
   border-top: 1px solid var(--c-line);
+}
+.article__nav a {
+  flex: 1 1 16rem;
+}
+.article__nav-next {
+  text-align: right;
 }
 .article__nav a {
   color: var(--c-heading);
@@ -679,6 +720,31 @@ a.card:hover {
 }
 .prose h2 {
   margin-top: var(--s-6);
+}
+/* older articles (spec 004): the cover image, centred, and text lines with an icon instead of an emoji */
+.prose figure {
+  margin: 0 0 var(--s-5);
+}
+.prose figure img {
+  margin: 0 auto;
+  border-radius: var(--radius);
+}
+.prose .icon-list {
+  margin-bottom: var(--s-4);
+}
+.prose .grid-2 h2 {
+  justify-content: center;
+  margin-top: var(--s-4);
+}
+.prose .icon-list .icon-badge,
+.prose :is(h2, h3, h4, h5, h6).icon-item .icon-badge {
+  width: 32px;
+  height: 32px;
+}
+.prose .icon-list .icon,
+.prose :is(h2, h3, h4, h5, h6).icon-item .icon {
+  width: 18px;
+  height: 18px;
 }
 .prose .box h2,
 .prose .card h2 {

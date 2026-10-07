@@ -8,5 +8,11 @@
     "page": "/",
     "text": "Alătură-te EduWebLab și obține un site GRATUIT",
     "why": "hidden screen-reader copy of the post title (the visible title is kept)"
-  }
+  },
+  { "page": "/category/blog/", "text": "1", "why": "pagination: all 12 posts are on one page (spec 004)" },
+  { "page": "/category/blog/", "text": "2", "why": "pagination: all 12 posts are on one page (spec 004)" },
+  { "page": "/category/blog/", "text": "Next Page→", "why": "pagination: all 12 posts are on one page (spec 004)" },
+  { "page": "/author/dezvoltarev2/", "text": "1", "why": "pagination: all 12 posts are on one page (spec 004)" },
+  { "page": "/author/dezvoltarev2/", "text": "2", "why": "pagination: all 12 posts are on one page (spec 004)" },
+  { "page": "/author/dezvoltarev2/", "text": "Next Page→", "why": "pagination: all 12 posts are on one page (spec 004)" }
 ]

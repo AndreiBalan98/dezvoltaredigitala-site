@@ -38,6 +38,12 @@ export function previousPost(slug: string): Entry | undefined {
   return all[all.findIndex((p) => p.slug === slug) + 1];
 }
 
+// WordPress "Următor": the next newer post by date.
+export function nextPost(slug: string): Entry | undefined {
+  const all = posts();
+  return all[all.findIndex((p) => p.slug === slug) - 1];
+}
+
 export function cleanBody(entry: Entry): string {
   const fixes = readJson<Fix[]>("fixes.json").filter((f) => f.page === entry.path);
   return cleanHtml(entry.html, { mediaMap: readJson("media-map.json"), fixes });

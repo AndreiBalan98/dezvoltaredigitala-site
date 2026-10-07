@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { cleanBody, post, previousPost, roDate } from "@/lib/content";
-
-// M2 rebuilds only the newest article (spec 003); M3 adds the others here.
-const BUILT = ["finantare-sisteme-stocare-energie"];
+import { cleanBody, nextPost, post, posts, previousPost, roDate } from "@/lib/content";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return BUILT.map((slug) => ({ slug }));
+  return posts().map(({ slug }) => ({ slug }));
 }
 
 type Props = { params: Promise<{ slug: string }> };
@@ -21,6 +18,7 @@ export default async function Article({ params }: Props) {
   const { slug } = await params;
   const entry = post(slug);
   const previous = previousPost(slug);
+  const next = nextPost(slug);
   return (
     <article className="article">
       <header className="article__head container">
@@ -34,11 +32,18 @@ export default async function Article({ params }: Props) {
       <div className="container">
         <div className="prose" dangerouslySetInnerHTML={{ __html: cleanBody(entry) }} />
       </div>
-      {previous && (
+      {(previous || next) && (
         <nav className="article__nav container" aria-label="Articole">
-          <Link href={previous.path}>
-            <span className="article__nav-label">Anterior:</span> {previous.title}
-          </Link>
+          {previous && (
+            <Link href={previous.path}>
+              <span className="article__nav-label">Anterior:</span> {previous.title}
+            </Link>
+          )}
+          {next && (
+            <Link href={next.path} className="article__nav-next">
+              <span className="article__nav-label">Următor:</span> {next.title}
+            </Link>
+          )}
         </nav>
       )}
     </article>

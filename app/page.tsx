@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
+import PostCard from "@/components/PostCard";
 import Section from "@/components/Section";
-import { post, roDate } from "@/lib/content";
+import { post } from "@/lib/content";
 
 // The home page (spec 003). Texts are the exported home (content/pages/sample-page.json) with the
 // fixes in content/fixes.json; `npm run check:text` proves none is missing and the order is the same.
@@ -170,23 +170,9 @@ export default function Home() {
 
       <Section center title="Finanțări nerambursabile">
         <div className="grid-2">
-          {FUNDING.map((f) => {
-            const p = post(f.slug);
-            return (
-              <Card key={f.slug} className="teaser">
-                <Link className="teaser__image" href={p.path} tabIndex={-1} aria-hidden="true">
-                  <Image src={f.image.src} alt="" width={f.image.width} height={f.image.height} sizes="(max-width: 900px) 100vw, 50vw" />
-                </Link>
-                <h3>
-                  <Link href={p.path}>{p.title}</Link>
-                </h3>
-                <p className="teaser__date">
-                  <time dateTime={p.date}>{roDate(p.date)}</time>
-                </p>
-                <p>{f.excerpt}…</p>
-              </Card>
-            );
-          })}
+          {FUNDING.map((f) => (
+            <PostCard key={f.slug} post={post(f.slug)} image={f.image} excerpt={`${f.excerpt}…`} />
+          ))}
         </div>
       </Section>
 
