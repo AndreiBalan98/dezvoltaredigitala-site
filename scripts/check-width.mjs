@@ -1,5 +1,6 @@
 // After `next build` (spec 003): starts the built site and loads every built page at 375 / 768 / 1280 px.
 // Fails if a page scrolls sideways, and if the phone menu or the keyboard "Servicii" submenu do not work.
+// Spec 004: also fails if the calculator on the built page does not give the live result for fixed inputs.
 // Usage: npm run check:width   (exits 1 and names each page @ width with its widest element)
 
 import { spawn } from "node:child_process";
@@ -72,6 +73,23 @@ try {
   await phone.setViewportSize({ width: 1280, height: 800 });
   await phone.focus(".nav__item--sub .nav__link");
   if (!(await phone.isVisible(".nav__sub a"))) problems.push("/ @ 1280: Servicii submenu does not open on keyboard focus");
+
+  // Calculator: 15 kWh, 25.000 lei, own 10.000 lei → 57,5 points (tests/calculator.test.mjs, first case),
+  // shown only once all six conditions are ticked; "Aplică" on the first tip gives the maximum contribution.
+  if (pages.includes("/calculator-baterii/")) {
+    const calc = await browser.newPage({ viewport: { width: 375, height: 800 } });
+    await calc.goto(BASE + "/calculator-baterii/");
+    const score = () => calc.textContent(".calc__total strong");
+    await calc.fill("#calc-kwh", "15");
+    await calc.fill("#calc-vt", "25000");
+    await calc.fill("#calc-cp", "10000");
+    if ((await score()) !== "–") problems.push("/calculator-baterii/: score shown before the six conditions are ticked");
+    for (const box of await calc.$$(".calc__checks input")) await box.check();
+    if ((await score()) !== "57,5") problems.push(`/calculator-baterii/: 15 / 25000 / 10000 gives "${await score()}", expected "57,5"`);
+    await calc.click(".calc__apply");
+    if ((await score()) !== "87,5") problems.push(`/calculator-baterii/: "Aplică" gives "${await score()}", expected "87,5"`);
+    await calc.close();
+  }
   await browser.close();
 } finally {
   stop();
