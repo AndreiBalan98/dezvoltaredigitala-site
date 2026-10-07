@@ -26,7 +26,7 @@ I0 until M2's look-check (Claude commits and pushes to `main`, Vercel deploys ea
 - [x] `npm run compare` builds `compare/index.html`: old screenshot next to new, per page and width
 - [x] **HUMAN TASK:** PO imports the repo on vercel.com (steps in STATE.md); preview URL works
 
-## M2 — The reference pages: header, footer, home, newest article · status: todo · ~1.5 h
+## M2 — The reference pages: header, footer, home, newest article · status: building · ~1.5 h
 **Outcome:** home and *Finanțare pentru sisteme de stocare a energiei* rebuilt to the faithfulness
 rule in PRODUCT.md, from shared components (header, footer, section, card, icon list, button, box).
 **Definition of Done:**

@@ -3,8 +3,8 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M2 — header, footer, home, newest article (status: todo — spec not written yet)
-**Current spec:** — (M0 = `docs/specs/001-capture-live-site.md`, M1 = `docs/specs/002-setup.md`, both done)
+**Current milestone:** M2 — header, footer, home, newest article (status: building — spec approved)
+**Current spec:** `docs/specs/003-reference-pages.md` (M0 = `docs/specs/001-capture-live-site.md`, M1 = `docs/specs/002-setup.md`, both done)
 **Branch:** main (pushed; Vercel deploys every push)
 **Live preview:** https://dezvoltaredigitala-site.vercel.app (checked: `/` → 200 with the placeholder,
 `/nu-exista/` → 404, `/media/…` images → 200)
@@ -18,8 +18,8 @@
   spec 002). `npm run compare` writes `compare/index.html` (old | new, per page and width).
 
 ## Next step
-M2: plan mode → spec 003 from `.claude/templates/SPEC.md` (header, footer, home, newest article, shared
-components) using the tokens in spec 001 and the PO's accent decision below → PO approves → build.
+M2: build spec 003 (approved 2026-10-07) → DoD green (incl. new `check:text`, `check:width`, each broken
+once) → `spec-reviewer` → push → PO look-check on the Vercel URL with `compare/` open.
 
 ## Why the current approach
 - Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
@@ -33,6 +33,9 @@ components) using the tokens in spec 001 and the PO's accent decision below → 
 - none
 
 ## Decisions made since last review
+- PO (spec 003): the header's "Eligibilitate preliminară" button is **removed** (live it opens a popup form).
+- PO (spec 003): the Messenger bubble stays as a **plain link** to `m.me/156617447529801`. Live, it is drawn
+  by the third-party "Call Now Button" script on the PO's account; the new site loads no outside script.
 - PO: accent colours = **the newest article's palette, same as the logo**: `#236581`, `#42adec`, tint
   `#e8f4fc`, lines `#e2e8ec`, muted `#56636c`. Purple `#9164ff` is dropped everywhere (spec 001).
 - PO: the GitHub repo stays **public** (PRODUCT.md updated, 2026-10-07).
