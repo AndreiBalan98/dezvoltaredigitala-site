@@ -26,17 +26,17 @@ I0 until M2's look-check (Claude commits and pushes to `main`, Vercel deploys ea
 - [x] `npm run compare` builds `compare/index.html`: old screenshot next to new, per page and width
 - [x] **HUMAN TASK:** PO imports the repo on vercel.com (steps in STATE.md); preview URL works
 
-## M2 — The reference pages: header, footer, home, newest article · status: review · ~1.5 h
+## M2 — The reference pages: header, footer, home, newest article · status: done · ~1.5 h
 **Outcome:** home and *Finanțare pentru sisteme de stocare a energiei* rebuilt to the faithfulness
 rule in PRODUCT.md, from shared components (header, footer, section, card, icon list, button, box).
 **Definition of Done:**
 - [x] same sections in the same order as the reference; text test passes (cuts listed)
 - [x] no horizontal scroll at 375 / 768 / 1280 (automated check)
 - [x] `compare/` updated for both pages
-- [ ] **PO LOOK-CHECK** on the Vercel URL, phone + laptop, with `compare/` open: approve or say what to
+- [x] **PO LOOK-CHECK** (approved 2026-10-07 after 3 hero rounds: hero = full-width halves like live) on the Vercel URL, phone + laptop, with `compare/` open: approve or say what to
       change. Nothing else starts before this. After approval: switch to I1.
 
-## M3 — Every other page · status: todo · ~2.5 h
+## M3 — Every other page · status: spec · ~2.5 h
 **Outcome:** all URLs in the same style, made only of M2's components.
 **Definition of Done:**
 - [ ] 11 older articles: page-builder HTML converted into the shared components; texts kept, fixes listed

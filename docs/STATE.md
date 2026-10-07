@@ -3,9 +3,10 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M2 — header, footer, home, newest article (status: review — round 4, home hero full-width like live)
-**Current spec:** `docs/specs/003-reference-pages.md` (M0 = `docs/specs/001-capture-live-site.md`, M1 = `docs/specs/002-setup.md`, both done)
-**Branch:** main (pushed; Vercel deploys every push)
+**Current milestone:** M3 — every other page (status: spec approved, PR open; build next)
+**Current spec:** `docs/specs/004-every-other-page.md` (M0 = 001, M1 = 002, M2 = 003, all done)
+**Branch:** `docs/m3-spec` (PR to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches and
+opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL for each PR.
 **Live preview:** https://dezvoltaredigitala-site.vercel.app — home and
 https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ are the rebuilt pages (M2).
 
@@ -16,7 +17,7 @@ https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ ar
 - **M1 done.** Empty Next.js site (placeholder home "Site în lucru."), reused export, content, media,
   calculator and checks. All 5 DoD commands pass and each was broken once to see it fail (table in
   spec 002). `npm run compare` writes `compare/index.html` (old | new, per page and width).
-- **M2 built, in review.** Header, footer, Messenger bubble, home and the newest article from shared
+- **M2 done (PO approved 2026-10-07).** Header, footer, Messenger bubble, home and the newest article from shared
   components (`components/`, `app/tokens.css`, `app/globals.css`). 7 DoD commands green in 16 s; the new
   `check:text` and `check:width` and the loosened `check:links` / `check:routes` were each broken once (spec
   003 "Result"). Text fixes and cuts are data: `content/fixes.json`, `content/cuts.json`.
@@ -24,11 +25,17 @@ https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ ar
   pretty good"). Round 2 (PO disliked bigger fonts alone): hero now copies the live *layout* — narrow text
   column, big photo beside the heading, photo hidden on phone/tablet like live. Round 3 (PO: "even worse"):
   the real difference was only visible on a laptop screen — live hero spans the full screen width in two
-  halves, photo fills the right half. Copied. Spec 003 "Result".
+  halves, photo fills the right half. Copied; approved. Spec 003 "Result".
+  **Lesson:** always compare one laptop screen (1366 / 1536 / 1920), not only full-page shots at 1280.
+- **I1 switched on.** `.claude/settings.json` = `.claude/presets/settings.I1.json` plus three network
+  domains the sandbox needs: `fonts.googleapis.com`, `fonts.gstatic.com` (`next/font` downloads Inter at
+  build) and `dezvoltaredigitala.ro` (measuring / `compare` against the live site).
+- **M3 spec 004 approved.** PO decisions: `/servicii/` gets the 4 service cards; contact gets a
+  "Deschide în Google Maps" button instead of the embedded map.
 
 ## Next step
-PO look-check (HUMAN TASK below). Approved → M2 done, switch to I1 (`.claude/presets/settings.I1.json`),
-then M3 (spec 004: every other page from the same components). Changes asked → fix, re-run, ask again.
+PO merges the `docs/m3-spec` PR (HUMAN TASK below). Then I build PR 1 on `feat/m3-articles` (11 articles,
+3 post lists, 404) and PR 2 on `feat/m3-pages` (services, contact, legal, calculator), each with a look-check.
 
 ## Why the current approach
 - Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
@@ -39,12 +46,12 @@ then M3 (spec 004: every other page from the same components). Changes asked →
 - none
 
 ## Blocked on the human
-**HUMAN TASK — M2 look-check, round 4 (about 2 minutes).** Nothing else starts before this.
-1. Wait ~2 minutes after the push (Vercel rebuilds), then open https://dezvoltaredigitala-site.vercel.app
-   on the laptop and on the phone. Look only at the top block ("Transformă-ți afacerea…" + the photo).
-2. Optional side-by-side: in the terminal type `xdg-open compare/index.html`, press Enter, click `/`.
-3. Done = you reply **"M2 approved"**, or say what is still off (e.g. "heading still too small on phone").
-What I do with it: approved → close M2, switch to I1, write spec 004. Otherwise → adjust, show you again.
+**HUMAN TASK — merge the spec PR (about 1 minute).**
+1. Open the PR link I gave you (or in the terminal: `gh pr view docs/m3-spec --web`, Enter).
+2. It changes only documents and Claude's settings; no page changes. Click the green **"Merge pull request"**
+   button, then **"Confirm merge"**.
+3. Done = the PR page shows a purple "Merged" label. Tell me "merged".
+What I do with it: start PR 1 (articles) from the updated `main`.
 
 ## Decisions made since last review
 - Not asked, PO may overturn (spec 003 "Assumptions"): article comment form removed (needs a backend),
