@@ -5,7 +5,7 @@
 **Last updated:** 2026-10-07
 **Current milestone:** M1 — Setup (status: review — waiting for the Vercel import)
 **Current spec:** `docs/specs/002-setup.md` (M0's `001-capture-live-site.md` is done)
-**Branch:** main (3 commits not pushed yet — see "Blocked on the human" #1)
+**Branch:** main (pushed)
 
 ## Where we are
 - **M0 done.** `npm run capture` screenshots all 26 live URLs (23 known + `/category/blog/`,
@@ -17,9 +17,8 @@
 - Not on Vercel yet: needs the two human tasks below.
 
 ## Next step
-1. PO answers repo visibility (task #1). Claude then pushes `main`.
-2. PO does the Vercel import (task #2) and pastes the URL. Claude checks it with `curl`, marks M1 done.
-3. M2: plan mode → spec 003 (header, footer, home, newest article). First question in it: the accent colour.
+1. PO does the Vercel import (task #2) and pastes the URL. Claude checks it with `curl`, marks M1 done.
+2. M2: plan mode → spec 003 (header, footer, home, newest article). First question in it: the accent colour.
 
 ## Why the current approach
 - Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
@@ -31,23 +30,7 @@
 
 ## Blocked on the human
 
-### HUMAN TASK 1 (riskiest, first) — GitHub repo visibility
-PRODUCT.md says the repository is **private**, but GitHub reports
-`AndreiBalan98/dezvoltaredigitala-site` as **PUBLIC**. Nothing new has been pushed. The 3 local
-commits contain the copied site content and images (your company's own content) and
-`reference/styles.json` (computed styles of your live site). No secrets.
-Decide one: make it private on GitHub (steps below), or tell Claude "public is fine" and Claude
-updates PRODUCT.md.
-To make it private:
-1. Open `https://github.com/AndreiBalan98/dezvoltaredigitala-site/settings` in the browser.
-2. Scroll to the bottom, to the red **Danger Zone** box.
-3. Click **Change visibility** → **Change to private**.
-4. Click **I want to make this repository private**, then **I have read and understand these effects**,
-   then **Make this repository private** (GitHub may ask for your password or a code).
-5. Done looks like: the repo page shows a **Private** label next to its name.
-What Claude does next: `gh repo view --json visibility` to confirm, then `git push origin main`.
-
-### HUMAN TASK 2 — Import the repo on Vercel (after task 1 and Claude's push)
+### HUMAN TASK — Import the repo on Vercel
 1. Open `https://vercel.com/new` in the browser. If asked to log in: **Continue with GitHub**.
 2. Under **Import Git Repository**, find `dezvoltaredigitala-site` and click **Import** next to it.
    If it is not in the list: click **Adjust GitHub App Permissions** (link under the list) → under
@@ -64,6 +47,7 @@ What Claude does next: `curl` the address (HTTP 200, the placeholder text), writ
 done in ROADMAP, then every push to `main` deploys by itself.
 
 ## Decisions made since last review
+- PO: the GitHub repo stays **public** (PRODUCT.md updated, 2026-10-07).
 - 26 URLs captured: the sitemap also lists `/category/blog/` and `/author/dezvoltarev2/` (archive lists
   of all posts). PRODUCT.md says "+ whatever M0 finds" → default: rebuilt in M3 at the same URLs.
 - Reference screenshots are 45 MB → `reference/*.png` is git-ignored; `reference/styles.json` is committed.

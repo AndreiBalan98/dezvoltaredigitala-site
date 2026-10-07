@@ -12,7 +12,7 @@
 | Budget ceiling / month | 0 (Vercel Hobby for previews; production hosting is a PO decision later) |
 | Deadline | none |
 | Who else touches this code | nobody |
-| **Repository visibility** | private |
+| **Repository visibility** | public (PO decision, 2026-10-07) |
 
 ## Riskiest assumption
 *We can rebuild every page so it is recognisably the same site, while making it consistent.*
