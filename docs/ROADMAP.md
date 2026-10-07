@@ -36,19 +36,22 @@ rule in PRODUCT.md, from shared components (header, footer, section, card, icon 
 - [x] **PO LOOK-CHECK** (approved 2026-10-07 after 3 hero rounds: hero = full-width halves like live) on the Vercel URL, phone + laptop, with `compare/` open: approve or say what to
       change. Nothing else starts before this. After approval: switch to I1.
 
-## M3 — Every other page · status: review · ~2.5 h
+## M3 — Every other page · status: done · ~2.5 h
 **Outcome:** all URLs in the same style, made only of M2's components.
 **Definition of Done:**
 - [x] 11 older articles: page-builder HTML converted into the shared components; texts kept, fixes listed (PR #2, merged)
 - [x] funding list, `/servicii/` + 4 service pages, contact, legal pages, calculator (same results — tests), 404
 - [x] `check:routes` green — no old URL missing (25/25, 0 pending); width check green on every page
-- [ ] PR with `compare/` for every page; PO merges (PR 1 merged; PR 2 waiting)
+- [x] PR with `compare/` for every page; PO merges (PR #2 and PR #3, merged 2026-10-07)
 
-## M4 — Polish · status: todo · ~45 min
+## M4 — Polish · status: review · ~45 min
 **Definition of Done:**
-- [ ] Lighthouse mobile on home + newest article: Performance ≥ 90, Accessibility ≥ 95 (numbers in STATE.md)
-- [ ] all typo / diacritic / phone fixes listed in STATE.md for the PO's last read
-- [ ] STATE.md: open questions for the PO (hosting, form, domain switch)
+- [x] Lighthouse mobile on home + newest article: Performance ≥ 90, Accessibility ≥ 95 (numbers in STATE.md;
+      guarded by `npm run check:lighthouse` in the DoD)
+- [x] all typo / diacritic / phone fixes listed for the PO's last read (`npm run fixes:list` →
+      `compare/fixes.html`; counts and notable ones in STATE.md — spec 005)
+- [x] STATE.md: open questions for the PO (hosting, form, domain switch, and the ones found on the way)
+- [ ] PO merges the M4 PR
 
 ## Later (not now)
 Contact form, "Eligibilitate preliminară" form, production hosting, domain switch with the old site as

@@ -11,6 +11,8 @@
     "check:links": "node scripts/check-links.mjs",
     "check:text": "node scripts/check-text.mjs",
     "check:width": "node scripts/check-width.mjs",
+    "check:lighthouse": "node scripts/check-lighthouse.mjs",
+    "fixes:list": "node scripts/fixes-list.mjs",
     "capture": "node scripts/capture.mjs",
     "compare": "node scripts/compare.mjs",
     "export:wp": "node scripts/export-wp.mjs"
@@ -26,6 +28,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
+    "lighthouse": "13.5.0",
     "playwright": "1.63.0",
     "typescript": "^5"
   }
