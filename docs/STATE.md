@@ -14,10 +14,10 @@
 - **M1 built, DoD green.** Empty Next.js site (placeholder home "Site în lucru."), reused export,
   content, media, calculator and checks. All 5 DoD commands pass and each was broken once to see it
   fail (table in spec 002). `npm run compare` writes `compare/index.html` (old | new, per page and width).
-- Not on Vercel yet: needs the two human tasks below.
+- Not on Vercel yet: needs the human task below.
 
 ## Next step
-1. PO does the Vercel import (task #2) and pastes the URL. Claude checks it with `curl`, marks M1 done.
+1. PO does the Vercel import (HUMAN TASK below) and pastes the URL. Claude checks it with `curl`, marks M1 done.
 2. M2: plan mode → spec 003 (header, footer, home, newest article). First question in it: the accent colour.
 
 ## Why the current approach
