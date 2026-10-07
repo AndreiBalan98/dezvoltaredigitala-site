@@ -1,5 +1,6 @@
 // One-off export of the old WordPress site into content/ and public/media/.
-// Usage: node scripts/export-wp.mjs
+// Usage: node scripts/export-wp.mjs                (everything; deletes and rewrites content/)
+//        node scripts/export-wp.mjs --lists-only   (only content/site/list-*.html, spec 004)
 // Exits 1 if any count differs from the API's X-WP-Total or any image fails to download.
 
 import { mkdir, writeFile, rm } from "node:fs/promises";
@@ -36,9 +37,9 @@ async function fetchAll(type) {
   return { items, total };
 }
 
-async function getHtml(url) {
+async function getHtml(url, expectedStatus = 200) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
+  if (res.status !== expectedStatus) throw new Error(`${res.status} ${res.statusText} for ${url}`);
   return res.text();
 }
 
@@ -82,7 +83,38 @@ async function download(url, dest) {
   return buf.length;
 }
 
+// Post lists and the 404 are theme templates, not in the API: keep the live page (from its <h1> up to
+// the site <footer>) as the text reference that check:text compares the rebuilt pages against.
+// The archives show 10 posts per page: the posts of /page/2/, /page/3/ … are appended in order.
+const LIST_PAGES = ["/finantari-nerambursabile/", "/category/blog/", "/author/dezvoltarev2/"];
+const NOT_FOUND_PATH = "/pagina-care-nu-exista/";
+
+function h1ToFooter(html, url) {
+  const start = html.indexOf("<h1");
+  const end = html.indexOf("<footer", start);
+  if (start === -1 || end === -1) throw new Error(`No <h1> … <footer> on ${url}`);
+  return html.slice(start, end).replace(/<(script|style)\b[\s\S]*?<\/\1>/g, "").trim();
+}
+
+async function saveListPages() {
+  await mkdir(path.join(CONTENT_DIR, "site"), { recursive: true });
+  for (const page of LIST_PAGES) {
+    let list = h1ToFooter(await getHtml(SITE + page), page);
+    for (let n = 2; list.includes(`${page}page/${n}/"`); n++) {
+      const more = h1ToFooter(await getHtml(`${SITE}${page}page/${n}/`), `${page}page/${n}/`);
+      const posts = more.match(/<ul class="[^"]*wp-block-post-template[\s\S]*?<\/ul>/)?.[0];
+      if (!posts) throw new Error(`No post list on ${page}page/${n}/`);
+      list += "\n" + posts;
+    }
+    const file = `list-${page.slice(1, -1).replaceAll("/", "--")}.html`;
+    await writeFile(path.join(CONTENT_DIR, "site", file), list + "\n");
+  }
+  const notFound = h1ToFooter(await getHtml(SITE + NOT_FOUND_PATH, 404), NOT_FOUND_PATH);
+  await writeFile(path.join(CONTENT_DIR, "site", "404.html"), notFound + "\n");
+}
+
 async function main() {
+  if (process.argv.includes("--lists-only")) return saveListPages();
   const [posts, pages] = await Promise.all([fetchAll("posts"), fetchAll("pages")]);
 
   const featuredIds = [...new Set([...posts.items, ...pages.items].map((i) => i.featured_media).filter(Boolean))];
@@ -128,6 +160,7 @@ async function main() {
   for (const u of footer.match(UPLOAD_URL_RE) ?? []) imageUrls.add(u);
   await mkdir(path.join(CONTENT_DIR, "site"), { recursive: true });
   await writeFile(path.join(CONTENT_DIR, "site", "footer.html"), footer + "\n");
+  await saveListPages();
 
   const mediaMap = {};
   const failed = [];

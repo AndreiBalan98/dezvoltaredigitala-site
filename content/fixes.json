@@ -30,15 +30,45 @@
     "why": "copyright year follows the current year"
   },
   {
-    "page": "/",
-    "from": "martie 14, 2025",
-    "to": "14 martie 2025",
-    "why": "Romanian date order"
+    "page": "/finantari-nerambursabile/",
+    "from": "viitorul.Apelul",
+    "to": "viitorul. Apelul",
+    "why": "missing space after ."
   },
   {
-    "page": "/",
-    "from": "martie 3, 2025",
-    "to": "3 martie 2025",
-    "why": "Romanian date order"
+    "page": "/finantari-nerambursabile/",
+    "from": "Nord-Est?Obține",
+    "to": "Nord-Est? Obține",
+    "why": "missing space after ?"
+  },
+  {
+    "page": "404",
+    "from": "temporarily unavailable. You can search the site below, or return to the front page.",
+    "to": "temporarily unavailable.",
+    "why": "search box removed (spec 004); the \"Înapoi la prima pagină\" button replaces the sentence"
+  },
+  {
+    "page": "/877-2/",
+    "from": "0770102495",
+    "to": "+40 749 589 848",
+    "why": "one phone number everywhere"
+  },
+  {
+    "page": "/economia-circulara/",
+    "from": "0770 102 495",
+    "to": "+40 749 589 848",
+    "why": "one phone number everywhere"
+  },
+  {
+    "page": "/ghidul-incepatorului-in-accesarea-fondurilor-europene-ce-trebuie-sa-stii-inainte-sa-aplici/",
+    "from": "0770 102 495",
+    "to": "+40 749 589 848",
+    "why": "one phone number everywhere"
+  },
+  {
+    "page": "/start-up-nation-2025/",
+    "from": "0770 102 495",
+    "to": "+40 749 589 848",
+    "why": "one phone number everywhere"
   }
 ]

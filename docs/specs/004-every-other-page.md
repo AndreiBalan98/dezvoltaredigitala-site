@@ -102,3 +102,56 @@ and the 1536 laptop screen before the PO is asked; PO look-check per PR.
 ## Needs a decision from the Product Owner
 - [x] `/servicii/` content → 4 service cards (2026-10-07)
 - [x] contact map → link button, no embed (2026-10-07)
+
+## Result — PR 1 (`feat/m3-articles`): 11 articles, 3 post lists, 404
+Built: all 12 posts (`app/[slug]`, with Anterior + Următor), `/finantari-nerambursabile/`, `/category/blog/`,
+`/author/dezvoltarev2/`, our 404 (`app/not-found.tsx`). `routes-pending.json` keeps the 9 PR 2 URLs.
+
+How (beyond the Approach above):
+- Cleaner (`lib/clean-html.ts`): drops `srcset`/`sizes` (13 pointed at the live server); emoji pasted as
+  pictures — from Facebook's servers (17) or embedded `data:` images — become the emoji, then an icon; a
+  "heading" holding `<br>` lines (the builder's subtitle, e.g. the whole VInnovate text sat in one `<h5>`)
+  becomes a paragraph; builder `<span>`s are dropped before splitting lines, and any `<strong>/<em>/<a>`
+  crossing a line break fails the build instead of producing broken HTML. 50 emoji → 31 SVG icons
+  (`lib/icons.ts`, `EMOJI_ICONS`; added shirt and health for the VInnovate sector list). Stackable columns
+  (`ghidul…` "Mit | Adevăr") → `grid-2`.
+- Post lists: the live lists are now saved by `node scripts/export-wp.mjs --lists-only` into
+  `content/site/list-*.html` — the archives' `/page/2/` posts appended, so all 12 are on one page — plus the
+  live 404 into `content/site/404.html`; `lib/lists.ts` reads the lists at build (same posts, order,
+  images, excerpts).
+  One card: `components/PostCard.tsx`, now also used by the home funding section.
+- One image missing from the M1 export was downloaded: `public/media/2026/10/bun-e1791350285289.jpg`
+  (the newest post's card image, cropped on the live site after the export).
+- Under I1 the sandbox only lets Node reach the network through its proxy: run `export-wp.mjs` with
+  `NODE_USE_ENV_PROXY=1`. Not `compare`: there the flag also routes its localhost check through the proxy
+  and it hangs; `compare` gives the browser the proxy itself (`HTTPS_PROXY`).
+
+Checks:
+- `check:text` now also covers the 3 lists and the 404 (from `content/site/`), strips emoji on both sides
+  with the cleaner's own `stripEmoji`, removes the article sidebar on the live side with the cleaner's own
+  `dropLeftovers` (posts only — the home funding section is the same post-grid block) and counts it
+  (213 lines), and turns live "martie 3, 2025" into "3 martie 2025" as one rule (the PO's date decision;
+  the two home date fixes it replaces were removed). Result: 19 sources, 382 blocks in order, 12 fixes, 9 cuts, 0 problems.
+- Proven able to fail after the change: one emoji-list line deleted from the built `economia-circulara`
+  → `missing: "Reducerea deșeurilor și a consumului de resurse"`, exit 1; restored → 0 problems.
+- New unit tests (6): emoji lines → icon list, headings/list items with emoji, emoji pictures, unknown
+  emoji throws, sidebar + srcset dropped, every exported post cleans without emoji/builder classes/
+  srcset/Facebook/sidebar. Proven: 📌 removed from the table → 2 tests red; restored → green. After review:
+  an image alone on a line of an emoji paragraph is kept (test red without the guard, green with it); 20/20.
+- The approved pages are unchanged: newest article `<main>` byte-identical before/after; home identical
+  apart from two invisible React `<!-- -->` markers (the excerpt and "…" are now one string).
+
+Fixes and cuts added (for the PO's list): old number `0770 102 495` / `0770102495` → `+40 749 589 848`
+on 4 articles; funding-list excerpts "viitorul.Apelul", "Nord-Est?Obține" get their missing space; dates in
+Romanian order everywhere. Cut: the article sidebars (Categorii populare, Postări populare), archive
+pagination "1 2 Next Page→" (all 12 posts on one page), the 404 search box and its sentence "You can
+search the site below, or return to the front page." (the "Înapoi la prima pagină" button replaces it) —
+both on `content/cuts.json` / `fixes.json` (page "404").
+Known: the EduWebLab poster in `/877-2/` shows the old number inside the image (like the 2 home posters).
+
+Spec review (`spec-reviewer`, PR 1): found that `/category/blog/` and `/author/dezvoltarev2/` showed only
+10 of 12 posts (page 1 of the live archive saved; "BIZZ CLUB BT" and "O nouă provocare profesională!"
+missing) while the cuts said "all 12 on one page", and that the 404 removals were not on the cuts list.
+Both fixed as above; also the image-only-line guard. Checked sound by the reviewer: sidebar removal drops
+only sidebar text on all 12 posts, every content image survives, cleaned HTML is balanced, `stripEmoji`
+and the date rule cannot hide a dropped sentence, no out-of-scope changes.

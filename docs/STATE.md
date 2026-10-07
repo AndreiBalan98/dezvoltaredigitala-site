@@ -3,12 +3,11 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M3 — every other page (status: spec approved, PR open; build next)
+**Current milestone:** M3 — every other page (status: building — PR 1 in review, PR 2 not started)
 **Current spec:** `docs/specs/004-every-other-page.md` (M0 = 001, M1 = 002, M2 = 003, all done)
-**Branch:** `docs/m3-spec` (PR to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches and
-opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL for each PR.
-**Live preview:** https://dezvoltaredigitala-site.vercel.app — home and
-https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ are the rebuilt pages (M2).
+**Branch:** `feat/m3-articles` (PR 1 to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches
+and opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL for each PR.
+**Live preview:** https://dezvoltaredigitala-site.vercel.app (M2 pages); PR 1's own Vercel preview link is on the PR.
 
 ## Where we are
 - **M0 done.** `npm run capture` screenshots all 26 live URLs (23 known + `/category/blog/`,
@@ -30,12 +29,16 @@ https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ ar
 - **I1 switched on.** `.claude/settings.json` = `.claude/presets/settings.I1.json` plus three network
   domains the sandbox needs: `fonts.googleapis.com`, `fonts.gstatic.com` (`next/font` downloads Inter at
   build) and `dezvoltaredigitala.ro` (measuring / `compare` against the live site).
-- **M3 spec 004 approved.** PO decisions: `/servicii/` gets the 4 service cards; contact gets a
-  "Deschide în Google Maps" button instead of the embedded map.
+- **M3 spec 004 approved and merged** (PR #1). PO decisions: `/servicii/` gets the 4 service cards; contact
+  gets a "Deschide în Google Maps" button instead of the embedded map.
+- **M3 PR 1 built** (`feat/m3-articles`): the 11 older articles (emoji → SVG icons, sidebar removed, Anterior /
+  Următor), `/finantari-nerambursabile/`, `/category/blog/`, `/author/dezvoltarev2/` (all 12 posts), our 404.
+  DoD 7/7 green; spec-reviewer found 2 gaps (archives missing 2 posts; 404 cuts not listed), both fixed.
+  Details and evidence: spec 004 "Result — PR 1". `npm run compare` now also has a laptop-screen row.
 
 ## Next step
-PO merges the `docs/m3-spec` PR (HUMAN TASK below). Then I build PR 1 on `feat/m3-articles` (11 articles,
-3 post lists, 404) and PR 2 on `feat/m3-pages` (services, contact, legal, calculator), each with a look-check.
+PO look-check of PR 1 (HUMAN TASK below), including two "how close to live" questions. Merged → PR 2 on
+`feat/m3-pages`: `/servicii/` + 4 service pages, contact, 2 legal pages, calculator.
 
 ## Why the current approach
 - Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
@@ -46,12 +49,18 @@ PO merges the `docs/m3-spec` PR (HUMAN TASK below). Then I build PR 1 on `feat/m
 - none
 
 ## Blocked on the human
-**HUMAN TASK — merge the spec PR (about 1 minute).**
-1. Open the PR link I gave you (or in the terminal: `gh pr view docs/m3-spec --web`, Enter).
-2. It changes only documents and Claude's settings; no page changes. Click the green **"Merge pull request"**
-   button, then **"Confirm merge"**.
-3. Done = the PR page shows a purple "Merged" label. Tell me "merged".
-What I do with it: start PR 1 (articles) from the updated `main`.
+**HUMAN TASK — PR 1 look-check (about 10 minutes).**
+1. On the laptop, in the project folder, type `xdg-open compare/index.html` and press Enter.
+   (Missing? First type `npm run compare`, wait ~5 min.)
+2. Click a page name at the top. The first row, "laptop screen", is live on the left and new on the right, as
+   on your laptop. Look at: `/finantari-nerambursabile/`, `/category/blog/`, `/economia-circulara/`,
+   `/apelul-regional-vinnovate-2025/`, `/bizz-club-botosani/`, `/404`.
+3. On the phone, open the PR's Vercel preview link (in the PR, "Deployments" → "View deployment") and
+   open the same pages.
+4. Done = reply **"PR 1 OK"** (then click "Merge pull request" → "Confirm merge"), or a list of what to change.
+   Two open questions, your call: (a) the funding list is ~1430 px wide on live, ours keeps the site's
+   1200 px; (b) live article photos can be ~1270 px wide, ours stop at the 760 px text width.
+What I do with it: OK → you merge, I start PR 2. A list → I fix it on the same branch and ask again.
 
 ## Decisions made since last review
 - Not asked, PO may overturn (spec 003 "Assumptions"): article comment form removed (needs a backend),
@@ -82,11 +91,20 @@ What I do with it: start PR 1 (articles) from the updated `main`.
 ## Tried and rejected — don't retry
 - Capturing without forcing `.animated` blocks visible: the home services and "Despre noi" sections come
   out blank (the plugin only shows them when scrolled into view slowly).
+- `NODE_USE_ENV_PROXY=1 npm run compare`: the flag sends compare's localhost check through the sandbox proxy
+  and it hangs forever. Use it only for `node scripts/export-wp.mjs` (Node's fetch to the live site).
+- Giving Playwright the proxy URL as one string: it needs `username` / `password` separately (compare.mjs does).
+- `git pull` on `main` under I1: the sandbox blocks rewriting `.claude/settings.json`. Instead:
+  `git fetch`, then `git reset --mixed origin/main`, then `git checkout -- docs/` (or any other changed paths).
+- `pkill -f <pattern>` / `pgrep -f` inside a command whose own text contains the pattern kills that command.
 
 ## Known debt
 - `content/fixes.json` and `content/cuts.json` sit in `content/`, which `npm run export:wp` deletes and
   rewrites. Before any re-export, copy them aside (git would show them deleted).
 - Until M3 builds them, Next's link prefetches of unbuilt pages hang under `next start`; `compare` no longer
   waits for "networkidle" because of it (spec 003 Result).
-- The two home funding posters still show the old number 0770 102 495 inside the image (not editable as text).
+- The two home funding posters and the EduWebLab poster (`/877-2/`) still show the old number inside the
+  image (not editable as text).
+- Under I1 the sandbox mounts placeholder files in the project folder (`.bashrc`, `.gitconfig`, `.idea`,
+  `.claude/commands` …, owned by "nobody"). Never `git add -A`: add files by name.
 - `public/media/` is 25 MB in git (ROADMAP "Later": remove unused images).
