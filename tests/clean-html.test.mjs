@@ -72,6 +72,11 @@ test("emoji pictures (Facebook or data: images) become icons; © and ™ stay te
   assert.equal(clean("<p>© 2025 Firma™</p>"), "<p>© 2025 Firma™</p>");
 });
 
+test("an image alone on a line of an emoji paragraph is kept", () => {
+  const out = clean('<p>✅ Unu<br><img src="https://dezvoltaredigitala.ro/wp-content/uploads/2025/03/b.png"><br>Doi</p>');
+  assert.match(out, /<p><img src="\/media\/2025\/03\/b\.png"><br>Doi<\/p>$/);
+});
+
 test("an emoji with no icon fails loudly instead of disappearing", () => {
   assert.throws(() => clean("<p>🦄 Unicorn</p>"), /No icon for emoji 🦄/);
 });

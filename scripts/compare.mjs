@@ -2,8 +2,10 @@
 // at the same widths into compare/new/, and writes compare/index.html with old | new side by side.
 // Spec 004 adds one laptop screen (1536×864, first screen only) per built page, live and new taken now:
 // the M2 hero needed three rounds because only full-page shots at 1280 px had been compared.
-// Usage: npm run compare   (then open compare/index.html). The browser uses HTTPS_PROXY when set (I1 sandbox);
-// do not set NODE_USE_ENV_PROXY here: it would send the localhost readiness check through the proxy.
+// Usage: npm run compare   (then open compare/index.html). Under the I1 sandbox the live site is only
+// reachable through HTTPS_PROXY: a second browser uses it (credentials passed separately, as Playwright
+// needs); the local site is opened without it. Do not set NODE_USE_ENV_PROXY: it would send the localhost
+// readiness check through the proxy too.
 
 import { execSync, spawn } from "node:child_process";
 import { mkdir, readdir, rm, writeFile } from "node:fs/promises";
@@ -22,6 +24,12 @@ const LIVE = process.env.LIVE_SITE ?? "https://dezvoltaredigitala.ro";
 // Same as SHOW_ALL in scripts/capture.mjs: no preloader, scroll-in blocks in their final state.
 const SHOW_ALL = "#sl-preloader{display:none!important}.animated{visibility:visible!important;animation:none!important;opacity:1!important;transform:none!important}";
 const PROXY = process.env.HTTPS_PROXY ?? process.env.https_proxy;
+const proxyOptions = () => {
+  if (!PROXY) return {};
+  const u = new URL(PROXY);
+  const server = `${u.protocol}//${u.host}`;
+  return { proxy: { server, username: decodeURIComponent(u.username), password: decodeURIComponent(u.password) } };
+};
 
 // Inverse of slugOf() in scripts/capture.mjs.
 const pathOf = (slug) => (slug === "home" ? "/" : slug === "404" ? NOT_FOUND_PATH : `/${slug.replaceAll("--", "/")}/`);
@@ -49,7 +57,7 @@ try {
   await rm(OUT, { recursive: true, force: true });
   await mkdir(path.join(OUT, "new"), { recursive: true });
   await mkdir(path.join(OUT, "old"), { recursive: true });
-  const browser = await chromium.launch(PROXY ? { proxy: { server: PROXY, bypass: "localhost,127.0.0.1" } } : {});
+  const browser = await chromium.launch();
   const built = new Set();
   for (const width of WIDTHS) {
     const page = await browser.newPage({ viewport: { width, height: 900 } });
@@ -73,22 +81,24 @@ try {
   }
 
   const laptop = await browser.newPage({ viewport: LAPTOP });
+  const liveBrowser = await chromium.launch(proxyOptions());
+  const live = await liveBrowser.newPage({ viewport: LAPTOP });
   const liveShot = new Set();
   for (const slug of slugs.filter((s) => built.has(s))) {
     await laptop.goto(BASE + pathOf(slug), { waitUntil: "load" });
     await laptop.waitForTimeout(500);
     await laptop.screenshot({ path: path.join(OUT, "new", `${slug}-laptop.png`) });
     try {
-      await laptop.goto(LIVE + pathOf(slug), { waitUntil: "load", timeout: 60_000 });
-      await laptop.addStyleTag({ content: SHOW_ALL });
-      await laptop.waitForTimeout(1500);
-      await laptop.screenshot({ path: path.join(OUT, "old", `${slug}-laptop.png`) });
+      await live.goto(LIVE + pathOf(slug), { waitUntil: "load", timeout: 60_000 });
+      await live.addStyleTag({ content: SHOW_ALL });
+      await live.waitForTimeout(1500);
+      await live.screenshot({ path: path.join(OUT, "old", `${slug}-laptop.png`) });
       liveShot.add(slug);
     } catch (err) {
       console.error(`live ${pathOf(slug)} not captured: ${err.message.split("\n")[0]}`);
     }
   }
-  await laptop.close();
+  await liveBrowser.close();
   await browser.close();
 
   const cell = (slug, width) =>

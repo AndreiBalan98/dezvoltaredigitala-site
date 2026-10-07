@@ -139,7 +139,7 @@ function emojiIcons(html: string): string {
     };
     for (const line of lines) {
       const lead = leadingIcon(line);
-      if (!textOf(line)) flush();
+      if (!textOf(line) && !/<img\b/.test(line)) flush();
       else if (lead) {
         if (plain.length) flush();
         items.push(`<li>${badged(lead)}</li>`);

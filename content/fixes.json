@@ -42,6 +42,12 @@
     "why": "missing space after ?"
   },
   {
+    "page": "404",
+    "from": "temporarily unavailable. You can search the site below, or return to the front page.",
+    "to": "temporarily unavailable.",
+    "why": "search box removed (spec 004); the \"Înapoi la prima pagină\" button replaces the sentence"
+  },
+  {
     "page": "/877-2/",
     "from": "0770102495",
     "to": "+40 749 589 848",

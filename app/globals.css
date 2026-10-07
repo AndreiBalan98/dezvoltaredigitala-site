@@ -604,7 +604,7 @@ a.card:hover {
   font-size: var(--fs-hero);
 }
 .not-found__title {
-  font-size: var(--fs-lead);
+  font-size: var(--fs-h2);
 }
 .not-found p {
   max-width: var(--w-text);

@@ -116,7 +116,9 @@ How (beyond the Approach above):
   (`lib/icons.ts`, `EMOJI_ICONS`; added shirt and health for the VInnovate sector list). Stackable columns
   (`ghidul…` "Mit | Adevăr") → `grid-2`.
 - Post lists: the live lists are now saved by `node scripts/export-wp.mjs --lists-only` into
-  `content/site/list-*.html`; `lib/lists.ts` reads them at build (same posts, order, images, excerpts).
+  `content/site/list-*.html` — the archives' `/page/2/` posts appended, so all 12 are on one page — plus the
+  live 404 into `content/site/404.html`; `lib/lists.ts` reads the lists at build (same posts, order,
+  images, excerpts).
   One card: `components/PostCard.tsx`, now also used by the home funding section.
 - One image missing from the M1 export was downloaded: `public/media/2026/10/bun-e1791350285289.jpg`
   (the newest post's card image, cropped on the live site after the export).
@@ -125,16 +127,17 @@ How (beyond the Approach above):
   and it hangs; `compare` gives the browser the proxy itself (`HTTPS_PROXY`).
 
 Checks:
-- `check:text` now also covers the 3 lists (from `content/site/list-*.html`), strips emoji on both sides
+- `check:text` now also covers the 3 lists and the 404 (from `content/site/`), strips emoji on both sides
   with the cleaner's own `stripEmoji`, removes the article sidebar on the live side with the cleaner's own
   `dropLeftovers` (posts only — the home funding section is the same post-grid block) and counts it
   (213 lines), and turns live "martie 3, 2025" into "3 martie 2025" as one rule (the PO's date decision;
-  the two home date fixes it replaces were removed). Result: 18 sources, 371 blocks in order, 0 problems.
+  the two home date fixes it replaces were removed). Result: 19 sources, 382 blocks in order, 12 fixes, 9 cuts, 0 problems.
 - Proven able to fail after the change: one emoji-list line deleted from the built `economia-circulara`
   → `missing: "Reducerea deșeurilor și a consumului de resurse"`, exit 1; restored → 0 problems.
 - New unit tests (6): emoji lines → icon list, headings/list items with emoji, emoji pictures, unknown
   emoji throws, sidebar + srcset dropped, every exported post cleans without emoji/builder classes/
-  srcset/Facebook/sidebar. Proven: 📌 removed from the table → tests 14 and 19 red; restored → 19/19.
+  srcset/Facebook/sidebar. Proven: 📌 removed from the table → 2 tests red; restored → green. After review:
+  an image alone on a line of an emoji paragraph is kept (test red without the guard, green with it); 20/20.
 - The approved pages are unchanged: newest article `<main>` byte-identical before/after; home identical
   apart from two invisible React `<!-- -->` markers (the excerpt and "…" are now one string).
 
@@ -142,5 +145,13 @@ Fixes and cuts added (for the PO's list): old number `0770 102 495` / `077010249
 on 4 articles; funding-list excerpts "viitorul.Apelul", "Nord-Est?Obține" get their missing space; dates in
 Romanian order everywhere. Cut: the article sidebars (Categorii populare, Postări populare), archive
 pagination "1 2 Next Page→" (all 12 posts on one page), the 404 search box and its sentence "You can
-search the site below, or return to the front page." (the "Înapoi la prima pagină" button replaces it).
+search the site below, or return to the front page." (the "Înapoi la prima pagină" button replaces it) —
+both on `content/cuts.json` / `fixes.json` (page "404").
 Known: the EduWebLab poster in `/877-2/` shows the old number inside the image (like the 2 home posters).
+
+Spec review (`spec-reviewer`, PR 1): found that `/category/blog/` and `/author/dezvoltarev2/` showed only
+10 of 12 posts (page 1 of the live archive saved; "BIZZ CLUB BT" and "O nouă provocare profesională!"
+missing) while the cuts said "all 12 on one page", and that the 404 removals were not on the cuts list.
+Both fixed as above; also the image-only-line guard. Checked sound by the reviewer: sidebar removal drops
+only sidebar text on all 12 posts, every content image survives, cleaned HTML is balanced, `stripEmoji`
+and the date rule cannot hide a dropped sentence, no out-of-scope changes.

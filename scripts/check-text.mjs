@@ -98,6 +98,15 @@ for (const page of ["/finantari-nerambursabile/", "/category/blog/", "/author/de
   sources.push({ page, source, built: region(builtHtml(page), "main") });
 }
 
+// The live 404 against our 404 page (content/site/404.html, spec 004).
+if (existsSync(path.join(BUILT, "_not-found.html"))) {
+  sources.push({
+    page: "404",
+    source: readFileSync(path.join(ROOT, "content", "site", "404.html"), "utf8"),
+    built: region(readFileSync(path.join(BUILT, "_not-found.html"), "utf8"), "main"),
+  });
+}
+
 // PO decision (spec 003): dates in Romanian order everywhere — live "martie 3, 2025" → "3 martie 2025".
 const MONTH = "ianuarie|februarie|martie|aprilie|mai|iunie|iulie|august|septembrie|octombrie|noiembrie|decembrie";
 const roDateOrder = (text) => text.replace(new RegExp(`\\b(${MONTH}) (\\d{1,2}), (\\d{4})\\b`, "g"), "$2 $1 $3");
