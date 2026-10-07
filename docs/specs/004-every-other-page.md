@@ -155,3 +155,57 @@ missing) while the cuts said "all 12 on one page", and that the 404 removals wer
 Both fixed as above; also the image-only-line guard. Checked sound by the reviewer: sidebar removal drops
 only sidebar text on all 12 posts, every content image survives, cleaned HTML is balanced, `stripEmoji`
 and the date rule cannot hide a dropped sentence, no out-of-scope changes.
+PO after PR 1 (merged): did not answer the two "match live?" questions (funding list ~1430 px wide on live;
+live article photos up to ~1270 px) → defaults kept (1200 px page width, photos at text width); open in STATE.
+
+## Result — PR 2 (`feat/m3-pages`): services, contact, legal pages, calculator
+Built: `/servicii/` + the 4 service pages, `/contact/`, `/politica-de-confidentialitate/`,
+`/termeni-si-conditii/`, `/calculator-baterii/`. `routes-pending.json` is `[]`: all 25 known URLs + the 404.
+
+PO decisions during the build (2026-10-07):
+- "Creare website" has a packages section that is **invisible on live** (its scroll-in animation never
+  fires; `check:text` found it, with prices). PO: **show it, prices included** ("Începând de la €400 / €800 /
+  €1200", "Cere oferta"). The same never-firing animation hides "Ce servicii oferim?" on "Consultanță IT"; it
+  is shown too (texts only, no prices).
+- The two legal pages: **fix all diacritics**, no other word changes (31 entries in `content/fixes.json`,
+  whole sentences so each can be read side by side; one real typo: "livarea" → "livrarea"; cedilla "ţ" → "ț").
+
+How:
+- Service pages, `/servicii/` and contact are TSX (like home), texts from `content/pages/*.json`; `check:text`
+  proves every line is there in order. Shared pieces: `components/PageHead.tsx` (the one centred `<h1>`),
+  `components/ServiceGrid.tsx` ("Servicii diversificate", identical on all 4 pages), the existing Card, Box,
+  Button, IconList, Section. New CSS patterns: `.split` (photo + text), `.points`, `.grid-4`, `.step`
+  (numbered / check cards), `.package`. Live coloured cards (purple, orange, cyan) → the one card / box style;
+  red and purple buttons → the blue button (spec Assumptions).
+- Live-only interactions dropped, content kept: the "Ce oferim:" slider on Digitalizare → one check-icon list;
+  the 6 "Citește mai mult / Arată mai puțin" toggles on Consultanță fonduri → full text shown (12 cuts).
+  The long sentence live renders as a second `<h1>` there is an `<h2>` (one `<h1>` per page).
+- "GE S TIUNE": a stray link to eduweblab.ro inside the GESTIUNE heading is gone (text unchanged).
+- Contact: phone icon link to the old number and the `mailto:contact@dezvolatredigitala.ro` typo are fixed
+  (both use `lib/site.ts`); the form's 4 labels are cuts; "Deschide în Google Maps" opens the same search the
+  live map embeds ("C&A Connect", zoom 15).
+- Legal pages: the export through `lib/clean-html.ts` (`components/LegalPage.tsx`, `page()` in `lib/content.ts`).
+- Calculator: `components/Calculator.tsx`, the live display script ported to React on `lib/calculator.ts`
+  (same texts, messages, blur formatting, "Aplică", phone sticky bar, back link to the previous on-site page).
+  New token `--c-error` (`#b42318`) for its red error states.
+
+Checks:
+- `check:text`: 28 sources, 639 blocks in order, 77 fixes, 25 cuts, 0 problems. Each page's fixes were added
+  only after `check:text` named the exact live line, so every entry is used (stale entries fail the check).
+- `check:routes`: 25 of 25 known URLs built, 0 pending (proven: with the 9 PR 2 URLs still pending it
+  failed, "Remove from scripts/routes-pending.json").
+- `check:width` now also runs the calculator on the built page: 15 / 25000 / 10000 shows "–" until all six
+  conditions are ticked, then "57,5"; "Aplică" on the first tip → "87,5" (values from `lib/calculator.ts`).
+  Proven: the six-conditions rule removed → `score shown before the six conditions are ticked`, exit 1;
+  restored → 0 problems.
+
+Spec review (`spec-reviewer`, PR 2): one real gap — a new CSS rule (`.box .btn`) also moved the approved
+newest article's "Calculează-ți punctajul" button down 16 px. Scoped to `.stack-boxes .box .btn`; measured
+after: newest article 0 px (as approved), new boxes 16 px. No check sees CSS-only changes to approved pages
+(text checks compare text) — known debt in STATE. Checked sound by the reviewer: every legal fix only adds
+diacritics (possessives "său / săi / sa" right), service-page Romanian, a reverse check (no unexpected extra
+text), every live image and button target kept, no old phone number or `dezvolatre` anywhere (54 `tel:`,
+28 `mailto:` correct), the calculator matches the live script branch by branch, one `<h1>` per page.
+Noted for the PO: the stray eduweblab.ro link inside "GESTIUNE" (Consultanță IT) is gone; the street name
+"Dobosari" is kept as on live (the approved footer has it too); the legal pages keep live's heading levels
+(h1 → h5), which Lighthouse would flag if it were measured there.

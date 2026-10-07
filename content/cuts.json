@@ -10,10 +10,26 @@
     "why": "hidden screen-reader copy of the post title (the visible title is kept)"
   },
   { "page": "404", "text": "Caută", "why": "search box removed (needs a backend, spec 004)" },
+  { "page": "/contact/", "text": "Nume", "why": "contact form removed (needs a backend; non-goal in PRODUCT.md)" },
+  { "page": "/contact/", "text": "Telefon", "why": "contact form removed (needs a backend; non-goal in PRODUCT.md)" },
+  { "page": "/contact/", "text": "Adresa de email", "why": "contact form removed (needs a backend; non-goal in PRODUCT.md)" },
+  { "page": "/contact/", "text": "Mesajul tău (opțional)", "why": "contact form removed (needs a backend; non-goal in PRODUCT.md)" },
   { "page": "/category/blog/", "text": "1", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
   { "page": "/category/blog/", "text": "2", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
   { "page": "/category/blog/", "text": "Next Page→", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
   { "page": "/author/dezvoltarev2/", "text": "1", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
   { "page": "/author/dezvoltarev2/", "text": "2", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
-  { "page": "/author/dezvoltarev2/", "text": "Next Page→", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" }
+  { "page": "/author/dezvoltarev2/", "text": "Next Page→", "why": "pagination: page 2's two posts are shown on the same page (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 01 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 01 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 02 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 02 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 03 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 03 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 04 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 04 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 05 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 05 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Citește mai mult", "why": "card 06 toggle: the whole text is shown (spec 004)" },
+  { "page": "/servicii/consultanta-pentru-accesarea-fondurilor-nerambursabile/", "text": "Arată mai puțin", "why": "card 06 toggle: the whole text is shown (spec 004)" }
 ]

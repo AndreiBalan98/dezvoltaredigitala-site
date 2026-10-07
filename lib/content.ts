@@ -32,6 +32,11 @@ export function post(slug: string): Entry {
   return found;
 }
 
+// An exported page by its slug, e.g. "termeni-si-conditii".
+export function page(slug: string): Entry {
+  return readJson<Entry>(`pages/${slug}.json`);
+}
+
 // WordPress "Anterior": the next older post by date.
 export function previousPost(slug: string): Entry | undefined {
   const all = posts();

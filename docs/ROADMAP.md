@@ -36,13 +36,13 @@ rule in PRODUCT.md, from shared components (header, footer, section, card, icon 
 - [x] **PO LOOK-CHECK** (approved 2026-10-07 after 3 hero rounds: hero = full-width halves like live) on the Vercel URL, phone + laptop, with `compare/` open: approve or say what to
       change. Nothing else starts before this. After approval: switch to I1.
 
-## M3 — Every other page · status: spec · ~2.5 h
+## M3 — Every other page · status: review · ~2.5 h
 **Outcome:** all URLs in the same style, made only of M2's components.
 **Definition of Done:**
-- [ ] 11 older articles: page-builder HTML converted into the shared components; texts kept, fixes listed
-- [ ] funding list, `/servicii/` + 4 service pages, contact, legal pages, calculator (same results — tests), 404
-- [ ] `check:routes` green — no old URL missing; width check green on every page
-- [ ] PR with `compare/` for every page; PO merges
+- [x] 11 older articles: page-builder HTML converted into the shared components; texts kept, fixes listed (PR #2, merged)
+- [x] funding list, `/servicii/` + 4 service pages, contact, legal pages, calculator (same results — tests), 404
+- [x] `check:routes` green — no old URL missing (25/25, 0 pending); width check green on every page
+- [ ] PR with `compare/` for every page; PO merges (PR 1 merged; PR 2 waiting)
 
 ## M4 — Polish · status: todo · ~45 min
 **Definition of Done:**

@@ -14,6 +14,8 @@
   --c-footer-line: #444;
   --c-white: #fff;
   --c-messenger: #0033ff;
+  --c-error: #b42318; /* calculator errors, as live marks them in red (spec 004) */
+  --c-error-tint: #fdecea;
 
   /* fonts: one pair */
   --font-text: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
