@@ -1,6 +1,6 @@
 # Spec 003 — The reference pages: header, footer, home, newest article
 
-**Milestone:** M2 · **Status:** review · **Date:** 2026-10-07
+**Milestone:** M2 · **Status:** done · **Date:** 2026-10-07
 
 ## Goal
 A visitor opening `/` or `/finantare-sisteme-stocare-energie/` on the Vercel preview sees the same site
