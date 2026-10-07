@@ -1,0 +1,14 @@
+{
+  "id": 24,
+  "type": "page",
+  "slug": "servicii",
+  "path": "/servicii/",
+  "title": "Servicii",
+  "date": "2025-02-11T11:11:35",
+  "modified": "2025-02-11T11:14:50",
+  "excerpt": "",
+  "parent": 0,
+  "categories": [],
+  "featuredImage": null,
+  "html": "<main id=\"wp--skip-link--target\" class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\" style=\"margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:0;padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:0\">\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\"><h2 style=\"margin-bottom:0px;margin-top:0px\" class=\"has-text-align-center wp-block-post-title has-xx-large-font-size\">Servicii</h2></div>\n\n\n</main>"
+}

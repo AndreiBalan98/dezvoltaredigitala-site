@@ -1,0 +1,16 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Dezvoltare digitală",
+    template: "%s – Dezvoltare digitală",
+  },
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="ro">
+      <body>{children}</body>
+    </html>
+  );
+}

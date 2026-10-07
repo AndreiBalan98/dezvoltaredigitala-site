@@ -12,6 +12,14 @@ build/
 out/
 coverage/
 
+# Next.js / Vercel
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
+# Generated side-by-side comparison (npm run compare)
+compare/
+
 # Secrets — only .env.example is committed
 .env
 .env.*
@@ -26,3 +34,6 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# Reference screenshots (45 MB, regenerate with npm run capture); styles.json is committed
+reference/*.png

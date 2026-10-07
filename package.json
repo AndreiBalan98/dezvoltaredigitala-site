@@ -1,0 +1,30 @@
+{
+  "name": "dezvoltaredigitala-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --max-warnings 0",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "check:routes": "node scripts/check-routes.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "capture": "node scripts/capture.mjs",
+    "compare": "node scripts/compare.mjs",
+    "export:wp": "node scripts/export-wp.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "playwright": "1.63.0",
+    "typescript": "^5"
+  }
+}

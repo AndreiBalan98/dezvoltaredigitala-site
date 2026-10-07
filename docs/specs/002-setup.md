@@ -74,3 +74,24 @@ End-to-end check: the PO opens the Vercel preview URL and sees the placeholder h
 
 ## Needs a decision from the Product Owner
 - [ ] HUMAN TASK: import the repo on vercel.com (steps in STATE.md)
+
+## Result (2026-10-07)
+Copies verified identical: `diff -rq ../dezvoltaredigitala-next/content content` and `… public/media` → no output.
+Clean setup, all exit 0: `lint` · `build` (routes `/`, `/_not-found`) · `test` (pass 7, fail 0) ·
+`check:routes — 1 of 23 exported URLs built, 22 pending.` · `check:links — 14 internal links on 2 pages, 0 broken.`
+The Stop hook (`.claude/hooks/dod-check.sh`) runs all five in 10 s, exit 0.
+
+Proven able to fail (each broken on purpose, then restored):
+| Check | Broken how | Output | Exit |
+|---|---|---|---|
+| lint | `const unused = 1;` in `app/page.tsx` | `ESLint found too many warnings (maximum: 0).` | 1 |
+| build | `Math.round("x")` in `app/page.tsx` | `error TS2345: Argument of type 'string' is not assignable…` | 1 |
+| test | `maxSuma: 16000` in `lib/calculator.ts` | `not ok 7 - ported logic gives the same result as the live script…` | 1 |
+| routes | `/contact/` removed from pending | `Missing: /contact/` | 1 |
+| routes | `/` added to pending while built | `Remove from scripts/routes-pending.json: /` | 1 |
+| links | `<a href="/nu-exista/">` on home | `Broken: /  →  /nu-exista/` | 1 |
+
+Deviation: the first lint proof exited **0** — ESLint reports unused variables as warnings. `lint` is now
+`eslint --max-warnings 0`, so any warning fails the DoD.
+`npm run compare` → `compare — 26 URLs × 3 widths, 2 built.` (51 s); `compare/index.html` has 26 sections,
+72 "not built yet" cells (24 pages × 3), the test server on port 3210 is stopped afterwards.
