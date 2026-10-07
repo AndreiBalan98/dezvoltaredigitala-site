@@ -3,120 +3,110 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M3 — every other page (status: review — PR 1 merged, PR 2 waiting for the PO)
-**Current spec:** `docs/specs/004-every-other-page.md` (M0 = 001, M1 = 002, M2 = 003, all done)
-**Branch:** `feat/m3-pages` (PR 2 to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches
+**Current milestone:** M4 — polish (status: review — PR open; after the merge the MVP is complete)
+**Current spec:** `docs/specs/005-polish.md` (M0 = 001, M1 = 002, M2 = 003, M3 = 004, all done)
+**Branch:** `feat/m4-polish` (PR to `main`). **Involvement I1 since 2026-10-07:** Claude works on branches
 and opens PRs; only the PO merges. Vercel deploys `main` and makes a preview URL for each PR.
-**Live preview:** https://dezvoltaredigitala-site.vercel.app (M2 + PR 1 pages); PR 2's preview link is on the PR.
+**Live preview:** https://dezvoltaredigitala-site.vercel.app — the whole new site (all 25 old URLs + a 404).
 
 ## Where we are
-- **M0 done.** `npm run capture` screenshots all 26 live URLs (23 known + `/category/blog/`,
-  `/author/dezvoltarev2/`, and a 404) at 375 / 768 / 1280 px into `reference/`. Design tokens and the
-  page-by-page inconsistency list are in spec 001.
-- **M1 done.** Empty Next.js site (placeholder home "Site în lucru."), reused export, content, media,
-  calculator and checks. All 5 DoD commands pass and each was broken once to see it fail (table in
-  spec 002). `npm run compare` writes `compare/index.html` (old | new, per page and width).
-- **M2 done (PO approved 2026-10-07).** Header, footer, Messenger bubble, home and the newest article from shared
-  components (`components/`, `app/tokens.css`, `app/globals.css`). 7 DoD commands green in 16 s; the new
-  `check:text` and `check:width` and the loosened `check:links` / `check:routes` were each broken once (spec
-  003 "Result"). Text fixes and cuts are data: `content/fixes.json`, `content/cuts.json`.
-- **Look-check round 1 (2026-10-07):** PO liked everything except the home hero ("bigger, the original was
-  pretty good"). Round 2 (PO disliked bigger fonts alone): hero now copies the live *layout* — narrow text
-  column, big photo beside the heading, photo hidden on phone/tablet like live. Round 3 (PO: "even worse"):
-  the real difference was only visible on a laptop screen — live hero spans the full screen width in two
-  halves, photo fills the right half. Copied; approved. Spec 003 "Result".
-  **Lesson:** always compare one laptop screen (1366 / 1536 / 1920), not only full-page shots at 1280.
-- **I1 switched on.** `.claude/settings.json` = `.claude/presets/settings.I1.json` plus three network
-  domains the sandbox needs: `fonts.googleapis.com`, `fonts.gstatic.com` (`next/font` downloads Inter at
-  build) and `dezvoltaredigitala.ro` (measuring / `compare` against the live site).
-- **M3 spec 004 approved and merged** (PR #1). PO decisions: `/servicii/` gets the 4 service cards; contact
-  gets a "Deschide în Google Maps" button instead of the embedded map.
-- **M3 PR 1 built** (`feat/m3-articles`): the 11 older articles (emoji → SVG icons, sidebar removed, Anterior /
-  Următor), `/finantari-nerambursabile/`, `/category/blog/`, `/author/dezvoltarev2/` (all 12 posts), our 404.
-  DoD 7/7 green; spec-reviewer found 2 gaps (archives missing 2 posts; 404 cuts not listed), both fixed.
-  Details and evidence: spec 004 "Result — PR 1". `npm run compare` now also has a laptop-screen row.
-  **PR 1 merged** by the PO ("is ok"). The two "match live?" questions were not answered → defaults kept
-  (funding list 1200 px wide, article photos at text width). Still open: say "match live" any time.
-- **M3 PR 2 built** (`feat/m3-pages`): `/servicii/` (4 cards), the 4 service pages, contact, the 2 legal pages,
-  the calculator. All 25 known URLs + 404 built (`routes-pending.json` = `[]`). PO decisions: the hidden
-  "Creare website" packages are **shown with prices** (€400 / €800 / €1200); legal pages get **all diacritics
-  fixed** (31 listed fixes). spec-reviewer found 1 gap (a CSS rule moved a button on the approved newest
-  article by 16 px), fixed and measured. Details and evidence: spec 004 "Result — PR 2".
+- **The rebuild is complete.** Every URL of dezvoltaredigitala.ro exists on the new site at the same address,
+  with the same texts, images and order, in one clean style (logo blues, one card / box / button / heading
+  style, real SVG icons, one phone number, diacritics fixed). Old site untouched; the domain still points to it.
+- **M0** capture of the live site (`reference/`, spec 001) · **M1** setup, checks, Vercel (spec 002) ·
+  **M2** header, footer, home, newest article (spec 003; hero took 3 look-check rounds) · **M3** every other
+  page in 2 PRs (spec 004) · **M4** Lighthouse gate + the PO's last read + open questions (spec 005).
+- **Lighthouse (mobile, median of 3, local `next start`):** home performance **96**, accessibility **100**;
+  newest article performance **97**, accessibility **100**. Bar: 90 / 95 (PRODUCT.md). Guarded in the DoD.
+- **DoD = 8 commands** (`.claude/dod-commands`), all green, each proven able to fail once: lint, build,
+  test (20), check:routes (25/25), check:links (1748 links), check:text (28 sources, 639 blocks in order,
+  77 fixes, 25 cuts), check:width (25 pages × 3 widths + menu + calculator), check:lighthouse.
 
 ## Next step
-PO look-check of PR 2 (HUMAN TASK below). Merged → M3 done; then M4 (polish: Lighthouse on home + newest
-article, the PO's final read of all fixes, open questions) — spec 005.
+PO merges the M4 PR, then answers the open questions below at his own pace. The next milestone is a PO
+decision (ROADMAP "Later"): most likely production hosting + domain switch, then the contact form.
+
+## Blocked on the human
+**HUMAN TASK — last read and merge (about 15 minutes).**
+1. In the project folder type `npm run fixes:list` and press Enter, then `xdg-open compare/fixes.html` and
+   press Enter. Every text change is there, red = live, green = new, grouped by page. Read the rules at the
+   top and skim the tables; the legal pages are long (diacritics only).
+2. Open the PR link from the chat (or `gh pr view feat/m4-polish --web`). Click **"Merge pull request"** →
+   **"Confirm merge"**.
+3. Done = the PR shows "Merged". Reply "merged", plus any fix you want undone (e.g. "keep 'Cere oferta'").
+What I do with it: close M4; undo any fix you name on a small branch; then wait for your next milestone choice.
+
+## Open questions for the PO (none blocks anything; my recommendation first)
+1. **Production hosting.** Recommendation: Vercel Hobby is free but for non-commercial use; a company site
+   should move to Vercel Pro (~20 $/month) or a free static host (Cloudflare Pages / Netlify free tier allow
+   commercial sites). Your call: money.
+2. **Domain switch date.** Recommendation: switch only after (1), keep the old WordPress online for a month as
+   a fallback, check Google Search Console after the switch.
+3. **Contact form.** Recommendation: a free form service (e.g. Formspree / Web3Forms) before writing a backend.
+   Today the contact page has phone, e-mail, address and the map button only.
+4. **ISO certificates** on home say "data expirării 18.12.2024". Still valid? If renewed, send the new images.
+5. **2025 funding calls** (Start-Up Nation 2025, VInnovate 2025, …) may be closed. Keep as news, or mark closed?
+6. **Odd URLs** `/test-2/`, `/test-3/`, `/877-2/` are real posts. Recommendation: keep (links out there may
+   point to them); rename later with redirects if you want nicer URLs.
+7. **"Match live" widths** (asked after M3 PR 1, no answer → defaults kept): funding list 1200 px (live ~1430);
+   article photos at text width (live up to ~1270 px). Say "match live" for either.
+8. **Old phone number inside 3 poster images** (home: 2 funding posters; `/877-2/`: EduWebLab poster).
+   Recommendation: send me corrected images, or I crop/cover the number (visible change → your OK).
+9. **Street name** "Dobosari": real spelling "Doboșari"? Kept as on live in footer, contact and privacy policy.
+10. **Header on wide screens** stays in the 1200 px box (live runs edge to edge). Change only if it bothers you.
+
+## Text changes — summary for the last read (full list: `npm run fixes:list` → `compare/fixes.html`)
+- Rules: one phone number (+40 749 589 848) everywhere; dates in Romanian order; emoji icons → SVG icons;
+  article sidebars removed (213 lines on 10 articles); © year automatic; typed "->", "•", "–" → icons/bullets.
+- 77 fixes on 15 pages + footer + 404: legal pages 31 (all diacritics, typo "livarea" → "livrarea"), Digitalizare 14,
+  Creare website 10, Consultanță IT 5, Consultanță fonduri 4, phone number on 4 articles, home 3, footer 2,
+  funding-list excerpts 2, contact 1, 404 1.
+- 25 cuts: 12 "Citește mai mult / Arată mai puțin" toggles (text now always shown), 6 archive pagination
+  links (all 12 posts on one page), 4 contact-form labels, 2 hidden screen-reader title copies, 1 search label.
+- Visible additions you decided: `/servicii/` cards; packages with prices on Creare website; Google Maps
+  button on contact. Shown because live hides them by a broken animation: those packages, "Ce servicii oferim?".
+
+## Decisions made (PO unless marked "assumption")
+- Look: logo blues (`#236581`, `#42adec`, tint `#e8f4fc`), purple dropped; Inter headings + system text;
+  home hero = live layout (two full-width halves).
+- Removed: header "Eligibilitate preliminară" popup button; all forms (comment, contact, 404 search);
+  embedded Google Map → link button; outside scripts (Messenger bubble = plain link to `m.me/156617447529801`).
+- `/servicii/` = 4 cards; packages shown with prices; legal pages: all diacritics fixed, no other word changes.
+- Lighthouse added as a dev dependency (M4). Repo is public.
+- Assumptions (may be overturned): preloader removed; client logos as a still row; 404 text stays English;
+  coloured cards → one card style; red/green buttons → blue; archives show all posts on one page.
 
 ## Why the current approach
-- Screenshots + computed styles (not only CSS files): the live page mixes 8 plugins' CSS, and the
-  computed value is what the visitor sees.
-- `check:routes` has a pending list instead of being left out of the DoD until M3, so it guards from day one.
+- Faithful rebuild checked by machines where possible: `check:text` proves no live sentence is dropped or
+  reordered (only listed fixes / cuts); `compare` shows live vs new, including one laptop screen per page
+  (lesson from the M2 hero: always compare a real laptop screen, not only full-page shots).
+- Content is exported once into `content/` + `public/media/`; the new site never calls the old server.
 
 ## In progress / committed but unfinished
 - none
 
-## Blocked on the human
-**HUMAN TASK — PR 2 look-check (about 10 minutes).**
-1. On the laptop, in the project folder, type `xdg-open compare/index.html` and press Enter.
-   (Missing? First type `npm run compare`, wait ~5 min.)
-2. Click a page name at the top; the first row is one laptop screen, live left, new right. Look at:
-   `/servicii/`, the 4 `/servicii/…` pages, `/contact/`, `/calculator-baterii/`, the 2 legal pages.
-3. On the phone, open the PR's Vercel preview link (PR page → "View deployment") and try the calculator:
-   tick the 6 boxes, type 15, 25000, 10000 → it must show **57,5**; press "Aplică" → **87,5**.
-4. Done = reply **"PR 2 OK"** and merge ("Merge pull request" → "Confirm merge"), or a list of changes.
-What I do with it: OK → M3 done, I write spec 005 (M4). A list → I fix it on the same branch and ask again.
-
-## Decisions made since last review
-- Not asked, PO may overturn (spec 003 "Assumptions"): article comment form removed (needs a backend),
-  preloader removed, client logos as a still row, Romanian date order, © year automatic.
-- PO (spec 003): the header's "Eligibilitate preliminară" button is **removed** (live it opens a popup form).
-- PO (spec 003): the Messenger bubble stays as a **plain link** to `m.me/156617447529801`. Live, it is drawn
-  by the third-party "Call Now Button" script on the PO's account; the new site loads no outside script.
-- PO: accent colours = **the newest article's palette, same as the logo**: `#236581`, `#42adec`, tint
-  `#e8f4fc`, lines `#e2e8ec`, muted `#56636c`. Purple `#9164ff` is dropped everywhere (spec 001).
-- PO: the GitHub repo stays **public** (PRODUCT.md updated, 2026-10-07).
-- 26 URLs captured: the sitemap also lists `/category/blog/` and `/author/dezvoltarev2/` (archive lists
-  of all posts). PRODUCT.md says "+ whatever M0 finds" → default: rebuilt in M3 at the same URLs.
-- Reference screenshots are 45 MB → `reference/*.png` is git-ignored; `reference/styles.json` is committed.
-  Files: `reference/<slug>-<375|768|1280>.png` for slugs `home`, `404`, `servicii`,
-  `servicii--creare-website`, `servicii--digitalizare-si-automatizare`,
-  `servicii--consultanta-solutii-it-si-studii-de-fezabilitate`,
-  `servicii--consultanta-pentru-accesarea-fondurilor-nerambursabile`, `finantari-nerambursabile`,
-  `contact`, `calculator-baterii`, `politica-de-confidentialitate`, `termeni-si-conditii`,
-  `category--blog`, `author--dezvoltarev2`, and the 12 post slugs in `content/posts/`.
-  Lost them? `npm run capture` re-creates them (4–5 min) — but only while the old site is still online.
-- The capture shows scroll-in animated blocks in their final state and hides the preloader.
-- `npm run lint` fails on warnings too (`--max-warnings 0`): ESLint treats unused variables as warnings,
-  so plain `eslint` let them through.
-- Same Next / React / ESLint versions as `dezvoltaredigitala-next` (16.3.8 / 19.2.8 / 9).
-- Specs 001 and 002 were marked approved from your message "Run M0 and M1" (they only restate ROADMAP
-  M0/M1). Say so if you want to read specs before code in future milestones too.
-
 ## Tried and rejected — don't retry
-- Capturing without forcing `.animated` blocks visible: the home services and "Despre noi" sections come
-  out blank (the plugin only shows them when scrolled into view slowly).
-- `NODE_USE_ENV_PROXY=1 npm run compare`: the flag sends compare's localhost check through the sandbox proxy
-  and it hangs forever. Use it only for `node scripts/export-wp.mjs` (Node's fetch to the live site).
+- Capturing without forcing `.animated` blocks visible: home sections come out blank.
+- `NODE_USE_ENV_PROXY=1` with `compare` / `check:*`: their localhost check goes through the sandbox proxy and
+  hangs. Use it only for `node scripts/export-wp.mjs`.
 - Giving Playwright the proxy URL as one string: it needs `username` / `password` separately (compare.mjs does).
-- `git pull` on `main` under I1: the sandbox blocks rewriting `.claude/settings.json`. Instead:
-  `git fetch`, then `git reset --mixed origin/main`, then `git checkout -- docs/` (or any other changed paths).
-- `pkill -f <pattern>` / `pgrep -f` inside a command whose own text contains the pattern kills that command.
+- `pkill -f` / `pgrep -f` with a pattern that is also in the running command's own text: it kills that command.
+
+## How-tos under I1 (the sandbox)
+- Sync after a merge (`git pull` can't rewrite the protected `.claude/settings.json`): `git fetch`,
+  `git switch main`, `git reset --mixed origin/main`, `git checkout -- . ':!.claude/settings.json'`.
+- Never `git add -A`: the sandbox mounts placeholder files (`.bashrc`, `.gitconfig`, `.idea`, …, owner
+  "nobody") in the project folder. Add files by name.
+- `npm install` needs `--cache "$TMPDIR/npm-cache"`; `gh` needs to run outside the sandbox (permission prompt).
 
 ## Known debt
-- `content/fixes.json` and `content/cuts.json` sit in `content/`, which `npm run export:wp` deletes and
-  rewrites. Before any re-export, copy them aside (git would show them deleted).
-- Until M3 builds them, Next's link prefetches of unbuilt pages hang under `next start`; `compare` no longer
-  waits for "networkidle" because of it (spec 003 Result).
-- The two home funding posters and the EduWebLab poster (`/877-2/`) still show the old number inside the
-  image (not editable as text).
-- Under I1 the sandbox mounts placeholder files in the project folder (`.bashrc`, `.gitconfig`, `.idea`,
-  `.claude/commands` …, owned by "nobody"). Never `git add -A`: add files by name.
+- `content/fixes.json`, `content/cuts.json` live in `content/`, which `npm run export:wp` deletes and rewrites:
+  copy them aside before any full re-export (`--lists-only` is safe).
+- No check catches a CSS-only change to an approved page (text checks compare text). Idea: screenshot-diff
+  the approved pages against a saved baseline.
 - `public/media/` is 25 MB in git (ROADMAP "Later": remove unused images).
-- No check catches a CSS-only change to an approved page (`check:text` compares text). PR 2 moved a button
-  on the newest article by 16 px until the reviewer measured it. Possible M4 item: screenshot-diff the
-  approved pages against a saved baseline.
-- `git pull` doesn't work under I1 (sandbox protects `.claude/settings.json`). To sync after a merge:
-  `git fetch`, `git switch main`, `git reset --mixed origin/main`, `git checkout -- . ':!.claude/settings.json'`.
-- Legal pages keep live's heading levels (h1 → h5 / h1 → h3 → h5); street name "Dobosari" kept as on live.
-- Under I1 the sandbox mounts placeholder files (see above), and `compare` reaches the live site only through
-  the proxy (handled in `scripts/compare.mjs`).
+- Legal pages keep live's heading levels (h1 → h5); Lighthouse would flag heading order there (not gated).
+- `npm audit`: 5 "high" in dev-only lint tooling (`eslint-config-next` → … → `braces`), nothing in what the
+  site ships; fixing needs a breaking lint upgrade — later.
+- Reference screenshots (`reference/*.png`, 45 MB) are git-ignored; `npm run capture` re-creates them only
+  while the old site is online. Do it before the domain switch if you want to keep them.

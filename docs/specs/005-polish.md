@@ -74,3 +74,19 @@ npm run check:lighthouse
 
 ## Needs a decision from the Product Owner
 - [x] Lighthouse as a dev dependency (2026-10-07)
+
+## Result (2026-10-07)
+- `lighthouse` 13.5.0 added as a pinned dev dependency (installed with `--cache "$TMPDIR/npm-cache"`: the I1
+  sandbox blocks npm's cache in the home folder). `npm audit --omit=dev`: 0 vulnerabilities in what the site
+  ships. `npm audit` reports 5 "high" in dev tools — all from the existing `eslint-config-next` →
+  `@next/eslint-plugin-next` → `fast-glob` → `micromatch` → `braces` chain (slow-down on a crafted glob
+  pattern), none from Lighthouse; not fixed (`--force` would break the lint setup), developer machines only.
+- `npm run check:lighthouse`, mobile preset, median of 3 runs, 41 s:
+  `/` performance **96**, accessibility **100**; `/finantare-sisteme-stocare-energie/` performance **97**,
+  accessibility **100**. Already above the bar, so no page changes were needed.
+- Proven able to fail: 7 full-size photos (`*-scaled.jpg`, 0.35–0.66 MB each) put on top of home on purpose →
+  `/ performance 75 < 90: largest-contentful-paint (9.3 s)`, exit 1; restored → green. (With 3 photos the score
+  only fell to 90 and still passed — the bar is ≥ 90 — so the break was made heavier.)
+- `npm run fixes:list` → `compare/fixes.html`: 77 fixes + 25 cuts on 17 pages, 102 rows = 102 entries, each once,
+  changed words highlighted, plus the 6 rule-based changes.
+- DoD is 8 commands now (`check:lighthouse` added to `.claude/dod-commands`).
