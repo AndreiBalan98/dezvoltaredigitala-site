@@ -105,6 +105,9 @@ What I do with it: close M4; undo any fix you name on a small branch; then wait 
 - No check catches a CSS-only change to an approved page (text checks compare text). Idea: screenshot-diff
   the approved pages against a saved baseline.
 - `public/media/` is 25 MB in git (ROADMAP "Later": remove unused images).
+- `check:width` / `check:lighthouse` stop their `next start` only when they finish. If one is killed
+  (Ctrl-C, hook timeout) the server keeps running, and the next run silently measures the old one. If numbers
+  look stale: `ss -ltnp | grep -E '321[12]'` and stop that process.
 - Legal pages keep live's heading levels (h1 → h5); Lighthouse would flag heading order there (not gated).
 - `npm audit`: 5 "high" in dev-only lint tooling (`eslint-config-next` → … → `braces`), nothing in what the
   site ships; fixing needs a breaking lint upgrade — later.

@@ -25,7 +25,7 @@ and every open question is written down with a recommendation. This closes the M
   `content/fixes.json` and `content/cuts.json` entry grouped by page, before → after with the changed letters
   highlighted, plus the rule-based changes (Romanian date order, emoji → icons, one phone number).
   STATE.md gets counts per page and the notable changes. (ROADMAP says "listed in STATE.md"; the full list
-  — 77 fixes, 25 cuts, 31 of them whole legal sentences — lives in that page so STATE stays readable.)
+  — 77 fixes, 31 of them whole legal sentences, and 25 cuts — lives in that page so STATE stays readable.)
 - STATE.md "Open questions for the PO", each with a recommendation: production hosting, contact form service,
   domain switch date, ISO certificates' expiry (18.12.2024), possibly closed 2025 funding calls, odd slugs
   `/test-2/` `/test-3/` `/877-2/`, the two "match live?" widths, the old number inside 3 poster images, street
