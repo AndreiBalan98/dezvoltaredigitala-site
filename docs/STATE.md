@@ -3,7 +3,7 @@
 > Rewritten at the end of every work block. Written for someone returning after **three weeks**.
 
 **Last updated:** 2026-10-07
-**Current milestone:** M2 — header, footer, home, newest article (status: review — round 3, home hero copied from the live layout)
+**Current milestone:** M2 — header, footer, home, newest article (status: review — round 4, home hero full-width like live)
 **Current spec:** `docs/specs/003-reference-pages.md` (M0 = `docs/specs/001-capture-live-site.md`, M1 = `docs/specs/002-setup.md`, both done)
 **Branch:** main (pushed; Vercel deploys every push)
 **Live preview:** https://dezvoltaredigitala-site.vercel.app — home and
@@ -22,7 +22,9 @@ https://dezvoltaredigitala-site.vercel.app/finantare-sisteme-stocare-energie/ ar
   003 "Result"). Text fixes and cuts are data: `content/fixes.json`, `content/cuts.json`.
 - **Look-check round 1 (2026-10-07):** PO liked everything except the home hero ("bigger, the original was
   pretty good"). Round 2 (PO disliked bigger fonts alone): hero now copies the live *layout* — narrow text
-  column, big photo beside the heading, photo hidden on phone/tablet like live. Spec 003 "Result".
+  column, big photo beside the heading, photo hidden on phone/tablet like live. Round 3 (PO: "even worse"):
+  the real difference was only visible on a laptop screen — live hero spans the full screen width in two
+  halves, photo fills the right half. Copied. Spec 003 "Result".
 
 ## Next step
 PO look-check (HUMAN TASK below). Approved → M2 done, switch to I1 (`.claude/presets/settings.I1.json`),
@@ -37,7 +39,7 @@ then M3 (spec 004: every other page from the same components). Changes asked →
 - none
 
 ## Blocked on the human
-**HUMAN TASK — M2 look-check, round 3 (about 2 minutes).** Nothing else starts before this.
+**HUMAN TASK — M2 look-check, round 4 (about 2 minutes).** Nothing else starts before this.
 1. Wait ~2 minutes after the push (Vercel rebuilds), then open https://dezvoltaredigitala-site.vercel.app
    on the laptop and on the phone. Look only at the top block ("Transformă-ți afacerea…" + the photo).
 2. Optional side-by-side: in the terminal type `xdg-open compare/index.html`, press Enter, click `/`.

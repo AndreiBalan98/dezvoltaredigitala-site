@@ -115,7 +115,7 @@ export default function Home() {
             alt="Consultantă care arată spre text"
             width={1280}
             height={853}
-            sizes="(min-width: 900px) 640px, 1px"
+            sizes="(min-width: 900px) 50vw, 1px"
             priority
           />
         </div>

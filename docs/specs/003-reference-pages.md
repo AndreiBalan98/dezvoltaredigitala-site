@@ -211,3 +211,10 @@ paragraphs, photo **hidden at 768 and 375**. Copied: `.hero__grid` 29rem | 1fr, 
 900 px (its `sizes` now `1px` there, so phones don't download it), `--fs-hero` 42→76 px, `--fs-hero-text`
 19.5→24 px, paragraph gap 1.7em. Kept: site font pair, blue pill button, "Transformă-ți" not split by a hyphen.
 DoD 7/7 green; side-by-side checked at 375 / 768 / 1280.
+Round 3: PO "even worse — the image is bigger, the text fits the screen". Root cause of both misses: we
+compared only full-page shots at 1280, never one screen at real laptop sizes. Measured live at 1024 / 1366 /
+1536 / 1920: the hero is **two equal halves of the full screen width** (not the 1200 px page container), text
+64 px from the left edge and 112 px short of the middle, photo filling the right half (778 px at 1536, 985 px
+at 1920), button centred under the text. Copied that from 900 px up. Compared one-screen captures at 1366 /
+1536 / 1920: same heading lines, photo size and text wrapping. DoD 7/7 green.
+Lesson: check layouts at one-screen laptop sizes (1366 / 1536 / 1920), not only the three reference widths.

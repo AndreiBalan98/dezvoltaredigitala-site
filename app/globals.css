@@ -461,8 +461,9 @@ a.card:hover {
   gap: var(--s-5);
   align-items: center;
 }
-/* geometry measured on the live hero (spec 003 Result): narrow text column, wide photo beside the heading,
-   photo hidden below 900px as live hides it on tablet and phone */
+/* geometry measured on the live hero at 1024–1920px screens (spec 003 Result): two equal halves of the full
+   screen width, not the page container; text 64px from the left edge, the photo fills the right half.
+   Photo hidden below 900px as live hides it on tablet and phone */
 .hero h1 {
   font-size: var(--fs-hero);
   line-height: 1.2;
@@ -481,12 +482,24 @@ a.card:hover {
     padding-bottom: var(--s-7);
   }
   .hero__grid {
-    grid-template-columns: minmax(0, 29rem) minmax(0, 1fr);
-    gap: var(--s-7);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 0;
     align-items: start;
+    max-width: none;
+    padding: 0 0 0 4rem;
+  }
+  .hero__text {
+    padding-right: 7rem;
+  }
+  .hero__text .btn {
+    display: flex;
+    width: fit-content;
+    margin-inline: auto;
   }
   .hero__image {
     display: block;
+    width: 100%;
+    height: auto;
     margin-top: var(--s-7);
   }
 }
