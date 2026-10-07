@@ -204,3 +204,10 @@ PO look-check (2026-10-07): "hero section bigger, the original one was pretty go
 → home hero set to the live sizes (`reference/styles.json`: h1 75.68 px, text ~22 px at 1280): `--fs-hero`
 36–56 px → 40–76 px, new `--fs-hero-text` 19–22 px, more space above/below on desktop. `--fs-hero` is used
 only by the home hero. DoD 7/7 green after the change; `compare` re-run.
+Round 2: PO "worst, don't like it, make it like the original". Bigger fonts alone were the wrong fix: the
+live hero's *shape* differs. Measured live with Playwright: text column 464 px (heading on 5 lines at 1280),
+photo 639 px wide beside the heading (top-aligned, not centred), text 24 px with a blank line between
+paragraphs, photo **hidden at 768 and 375**. Copied: `.hero__grid` 29rem | 1fr, photo `display:none` below
+900 px (its `sizes` now `1px` there, so phones don't download it), `--fs-hero` 42→76 px, `--fs-hero-text`
+19.5→24 px, paragraph gap 1.7em. Kept: site font pair, blue pill button, "Transformă-ți" not split by a hyphen.
+DoD 7/7 green; side-by-side checked at 375 / 768 / 1280.
