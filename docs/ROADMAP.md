@@ -6,24 +6,24 @@ I0 until M2's look-check (Claude commits and pushes to `main`, Vercel deploys ea
 **Look is the PO's call:** a machine checks routes, links, text, widths and speed; only the PO judges
 "same site, but clean".
 
-## M0 — Capture the live site · status: todo · ~30 min
+## M0 — Capture the live site · status: done · ~30 min
 **Outcome:** a reference of how the site looks today, so "faithful" can be checked.
 **Definition of Done:**
-- [ ] `scripts/capture.mjs` saves full-page screenshots of every live URL at 375, 768 and 1280 px
+- [x] `scripts/capture.mjs` saves full-page screenshots of every live URL at 375, 768 and 1280 px
       into `reference/` (git-ignored if > 20 MB; then the list of files goes in STATE.md)
-- [ ] the live theme's colours, fonts, font sizes, spacing and button/card styles are read from its
+- [x] the live theme's colours, fonts, font sizes, spacing and button/card styles are read from its
       CSS and written into `docs/specs/001-*.md` as the design tokens, with where each came from
-- [ ] a list of every inconsistency found (fonts, colours, boxes, broken icons, typos), page by page,
+- [x] a list of every inconsistency found (fonts, colours, boxes, broken icons, typos), page by page,
       in the same spec — this is what M2–M3 fix
-- [ ] if something cannot be captured: a HUMAN TASK for the PO (wp-admin / cPanel), before M1
+- [x] if something cannot be captured: a HUMAN TASK for the PO (wp-admin / cPanel), before M1
 
-## M1 — Setup · status: todo · ~30 min
+## M1 — Setup · status: review (waiting for the Vercel import) · ~30 min
 **Outcome:** empty Next.js site with the reused export and checks, live on Vercel.
 **Definition of Done:**
-- [ ] `.gitignore` before `npm install`; reused files copied from `dezvoltaredigitala-next` (list in PRODUCT.md)
-- [ ] `.claude/dod-commands`: `npm run lint`, `npm run build`, `npm test`, `npm run check:routes`,
+- [x] `.gitignore` before `npm install`; reused files copied from `dezvoltaredigitala-next` (list in PRODUCT.md)
+- [x] `.claude/dod-commands`: `npm run lint`, `npm run build`, `npm test`, `npm run check:routes`,
       `npm run check:links` — each proven able to fail once
-- [ ] `npm run compare` builds `compare/index.html`: old screenshot next to new, per page and width
+- [x] `npm run compare` builds `compare/index.html`: old screenshot next to new, per page and width
 - [ ] **HUMAN TASK:** PO imports the repo on vercel.com (steps in STATE.md); preview URL works
 
 ## M2 — The reference pages: header, footer, home, newest article · status: todo · ~1.5 h
